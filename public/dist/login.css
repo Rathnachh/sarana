@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s all ease-in-out;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{ 
+    background-color: blue;
+    background: url('../images/DUHST.jpg') no-repeat center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+body::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.form-login{
+    width: 450px;
+    padding: 20px 20px 0px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.form-login .fa-user-graduate{
+    font-size: 50px;
+    text-align: center;
+    color: #17A2B8;
+    opacity: 0.7;
+}
+.form-login .title{
+    margin: 20px 0;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.form-login .title h3{
+    font-size: 22px;
+    color: #17A2B8;
+}
+.input-box{
+    position: relative;
+    height: 35px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-box input,
+.input-box select
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    padding: 0 40px;
+    border-radius: 4px;
+}
+.input-box i{
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+.copyright{
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+}
+label {
+    color: #17A2B8;
+}
+
+.error{
+    font-size: 14px;
+    color: rgb(196, 15, 15);
+    font-weight: 200;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/*Form register*/
+
+.form-register{
+    /* position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    width: 90%;
+    margin: auto;
+}
+
+.form-register .pages
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-register .pages .form{
+    width: 50%;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+.form-register .pages .form-w
+{
+    width: 70%;
+}
+.form-register .pages .image{
+    width: 50%;
+}
+.form-register .pages,
+.form-register h3{
+    color: #fff;
+}
+.footer-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.form-w img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.form-w .user-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.form-w .user-img label{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+}
+@media (max-width: 580px)
+{
+    .form-login{
+        width: 330px;
+        padding: 10px 10px 0px 10px;
+    }
+}
