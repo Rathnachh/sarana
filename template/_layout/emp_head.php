@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="../../public/dist/style.css">
     
 </head>
-<body class="bg-light-blue">
+<body class="bg-light green">
     <div id="sidebar">
         <nav>
             <div class="nav-logo">

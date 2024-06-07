@@ -143,12 +143,13 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="title p-2">
-                <h3 class="text-center">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិតនៅសាកលវិទ្យាល័យ ហេង​ សំរិន​ ត្បួងឃ្មុំ</h3>
+                <h3 class="text-center">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
             </div>
             <div class="user">
                 <i class="fa-solid fa-bell"><span>0</span></i>
                 <div class="user-img">
-                    <img src="../../public/assets/images/logo_uhst.png" alt="">
+                    <!-- <img src="../../public/assets/images/logo_uhst.png" alt=""> -->
+                    <img src="../_admin/images/logo1.png" alt="">
                 </div>
                 <div class="user-menu">
                     <h4>Admin</h4>
