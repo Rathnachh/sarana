@@ -61,7 +61,7 @@
     
     </head>
     <body class="bg-light-blue">
-        <div id="sidebar">
+        <div id="sidebar" class="bg-info">
             <nav>
                 <div class="nav-logo">
                     <div class="logo-img">
