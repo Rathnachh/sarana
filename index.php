@@ -57,7 +57,7 @@
             </div>
 
             <button type="submit" class="btn btn-outline-info mt-3 mb-2 w-100">Login</button>
-            <!-- <p style="font-size: 14px;">I want to register <a href="register.php" style="font-size: 14px;">Register ?</a></p> -->
+            <p style="font-size: 14px;">I want to register <a href="register.php" style="font-size: 14px;">Register ?</a></p>
         </form>
         <p class="copyright">Develop By Group 11</p>
     </div>
