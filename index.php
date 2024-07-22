@@ -97,7 +97,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <div class="row">
                             <div class="col-12 text-center pt-4">
 
-                                <p class="fw-light">Don't have an account? <a href="#!">Register</a></p>
+                                <p class="fw-light">Don't have an account? <a href="register.php">Register</a></p>
 
                             </div>
                         </div>
