@@ -142,7 +142,7 @@
                         </div>
                         <div class="d-flex justify-content-end mt-5">
                             <button type="button" class="btn btn-outline-warning w-25 mr-2 back_2">back</button>
-                            <button type="button" class="btn btn-outline-success w-25 next_2" style="border-color: #fff; color:#fff">Next</button>
+                            <button type="button" class="btn btn-info w-25 next_2" style="border-color: #fff; color:#fff">Next</button>
                         </div>
                     </div>
                     

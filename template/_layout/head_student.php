@@ -5,7 +5,7 @@
 <?php
     if(!isset($_SESSION['user_role']) && $_SESSION['student_login'] != true)
     {
-        header('Location:'.DOMIAN.'/index.php');
+        header('Location:'.DOMAIN.'/index.php');
     }   
 ?>
 <!DOCTYPE html>
@@ -94,13 +94,13 @@
             <div class="user">
                 <i class="fa-solid fa-bell"><span>0</span></i>
                 <div class="user-img">
-                    <img src="<?php echo DOMIAN.'/public/images/'.$_SESSION['image'] ?>" alt="">
+                    <img src="<?php echo DOMAIN.'/public/images/'.$_SESSION['image'] ?>" alt="">
                 </div>
                 <div class="user-menu">
                     <h4 style="font-size:16px"><?php echo $_SESSION['student_name']?></h4>
                     <a href="student_details.php"><i class="fas fa-user"></i> My information</a>
                     <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMIAN.'/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <a href="<?php echo DOMAIN.'/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
                 </div>
             </div>
         </header>

@@ -2,7 +2,7 @@
 
 <?php
 if (!isset($_SESSION['admin_name'])) {
-    header('Location:' . DOMIAN . '/index.php');
+    header('Location:' . DOMAIN . '/index.php');
 }
 
 ?>
@@ -70,7 +70,7 @@ if (!isset($_SESSION['admin_name'])) {
         <nav>
             <div class="nav-logo">
                 <div class="logo-img">
-                    <i class="fa-solid fa-graduation-cap fa-2xl text-light ml-3 "></i>
+                    <i class="fa-solid fa-graduation-cap fa-xl text-light ml-3 "></i>
                 </div>
                 <h3 class="text-light">Administrator</h3>
                 <div class="toggle-icon action">
@@ -159,7 +159,7 @@ if (!isset($_SESSION['admin_name'])) {
                 <div class="user-menu">
                     <h4>Admin</h4>
                     <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMIAN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
                 </div>
             </div>
         </header>

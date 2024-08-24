@@ -1,13 +1,13 @@
 <?php require_once('database/constants.php') ?>
 <?php
 if (isset($_SESSION['admin_id']) && isset($_SESSION['admin_name'])) {
-    header('Location:' . DOMIAN . '/template/_admin/dashboard.php');
+    header('Location:' . DOMAIN . '/template/_admin/dashboard.php');
 }
 if (isset($_SESSION['user_id']) && isset($_SESSION['student_name'])) {
-    header('Location:' . DOMIAN . '/template/student/home.php');
+    header('Location:' . DOMAIN . '/template/student/home.php');
 }
 if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
-    header('Location:' . DOMIAN . '/template/employee/dashboard.php');
+    header('Location:' . DOMAIN . '/template/employee/dashboard.php');
 }
 ?>
 
@@ -43,7 +43,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
                                 <path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg> -->
-                            <small class="text-primary kh-text">អភិវឌ្ឍន៍ដោយក្រុមទី១១នៃសកលវិទ្យាល័យន័រតុន</small>
+                            <small class="text-primary kh-text">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសកលវិទ្យាល័យន័រតុន</small>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <div class="row">
                             <div class="col-12 text-center pt-4">
 
-                                <p class="fw-light">Don't have an account? <a href="#!">Register</a></p>
+                                <p class="fw-light">Don't have an account? <a href="register.php">Register</a></p>
 
                             </div>
                         </div>

@@ -7,7 +7,7 @@
     // }
     if(!$_SESSION['emp_role']=='2')
     {
-        header('Location:'.DOMIAN.'/index.php');
+        header('Location:'.DOMAIN.'/index.php');
     }
 ?>
 

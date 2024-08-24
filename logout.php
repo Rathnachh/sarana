@@ -18,5 +18,5 @@
         $_SESSION['emp_role'] ='';
         session_destroy();
     }
-    header('Location:index.php');
+    header("location:index.php");
 ?>
