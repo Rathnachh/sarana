@@ -40,10 +40,14 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <h3 class=" mb-4 kh-text">សូមស្វាគមន៍មកកាន់​អន្តេវាសិកដ្ឋាន</h3>
                         <p class="lead mb-3">Welcome To Our Dormitory System</p>
                         <div class="text-endx d-flex align-items-center gap-2 ">
+<<<<<<< HEAD
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
                                 <path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg> -->
                             <small class="text-primary kh-text">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសកលវិទ្យាល័យន័រតុន</small>
+=======
+                            <small class="text-primary kh-text">អភិវឌ្ឍន៍ដោយក្រុមទី១១នៃសកលវិទ្យាល័យន័រតុន</small>
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
                         </div>
                     </div>
                 </div>

@@ -54,11 +54,19 @@
                         <div class="input-field">
                             <label>ជនជាតិ</label>
                             <select name="ethnicity" id="ethnicity" required>
+<<<<<<< HEAD
                                 <option value=""  selected>~~ សូមជ្រើសរើស ~~</option>
                             </select>
                         </div>
 
                          <div class="input-field">
+=======
+                                <option value="" disabled selected>~~ សូមជ្រើសរើស ~~</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
                             <label>សញ្ជាតិ</label>
                             <select name="nation" id="nation" required>
                                 <option value="" disabled selected>~~ សូមជ្រើសរើស ~~</option>
@@ -161,10 +169,17 @@
                         <span class="btnText">Next</span>
                         <i class="uil uil-navigator"></i>
                     </button>
+<<<<<<< HEAD
                 </div>  
             </div>
 
            <div class="form second">
+=======
+                </div> 
+            </div>
+
+            <div class="form second">
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
                 <div class="details address">
                     <span class="title">អាសយដ្ឋានបច្ចុប្បន្ន</span>
                     <div class="fields">
@@ -229,10 +244,17 @@
                         </div>
                         <div class="input-field">
                         <div style="min-width:250;height:200px;overflow:hidden">
+<<<<<<< HEAD
                             <!-- <img src="public/images/pic_4x6.webp" id="preview" style="width:100%;height:100%;object-fit: cover;" alt=""> -->
                         </div>
                         </div>
                     </div> 
+=======
+                            <img src="public/images/pic_4x6.webp" id="preview" style="width:100%;height:100%;object-fit: cover;" alt="">
+                        </div>
+                        </div>
+                    </div>
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
 
                     <div class="buttons">
                         <img src="template/_admin/images/abc.gif" id="overlay" class="overlay float-right" alt="Image">
@@ -349,48 +371,70 @@
            var com_id = $('#community').val();
            get_village('#village',com_id);
        })
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
     });
     // mine
     
 </script>
 
 <script>
-    $(document).ready(function(){
-        $('#form_register').on('submit',function(e){
-            e.preventDefault();
-            var frm = new FormData(this);
-            $.ajax({
-                url:'controller/registerController.php',
-                type:'post',
-                dataType:'json',
-                data:frm,
-                processData:false,
-                contentType:false,
-                beforeSend:function(data)
-                {
-                    $('#overlay').show();
-                },
-                success:function(data)
-                {
-                    $('#overlay').hide();
-                    var email = data['email'];
-                    var password = data['password'];
+   $(document).ready(function(){
+    $('#form_register').on('submit', function(e){
+        e.preventDefault();
+        var frm = new FormData(this);
+        $.ajax({
+            url: 'controller/registerController.php',
+            type: 'post',
+            dataType: 'json',
+            data: frm,
+            processData: false,
+            contentType: false,
+            beforeSend: function() {
+                $('#overlay').show();
+            },
+            success: function(data) {
+                $('#overlay').hide();
+                if (data.success) {
+                    var email = data.email;
+                    var password = data.password;
                     swal({
                         title: "ការចុះឈ្មោះទទួលបានជោគជ័យ",
-                        text: "Email : "+email+" \n Password : "+password+" \n សម្រាប់ធ្វើការ Login ចូលប្រើប្រព័ន្ធ",
+                        text: "Email : " + email + " \n Password : " + password + " \n សម្រាប់ធ្វើការ Login ចូលប្រើប្រព័ន្ធ",
                         icon: "success",
                         buttons: true,
-                        })
-                        .then((saved) => {
+                    }).then((saved) => {
                         if (saved) {
-                                window.location.href=url+'index.php';
+                            window.location.href = url + 'index.php';
                         }
                     });
+                } else {
+                    swal({
+                        title: "Error",
+                        text: data.message,
+                        icon: "error",
+                        buttons: true,
+                    });
                 }
-            });
+            },
+            error: function() {
+                $('#overlay').hide();
+                swal({
+                    title: "Error",
+                    text: "An error occurred during registration.",
+                    icon: "error",
+                    buttons: true,
+                });
+            }
         });
     });
+});
 </script>
 
 <!--Add new student section-->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9bec903e828b8fd83cb8720014cbde975eb17dff
