@@ -47,42 +47,42 @@
         ?>
         <div class="content shadow p-3 bg-white">
             <div class="title">
-                <h3>ផ្ទាំងគ្រប់គ្រង</h3>
+                <h3 class="kh-text font-weight-bolder text-info">ផ្ទាំងគ្រប់គ្រង</h3>
             </div>
 
             <div class="list-box">
                 <div class="box color-1">
                     <span>All Students</span>
-                    <h3><?php echo $row_all_student['all_student'].'.00' ?>  <span>poeple</span></h3>
-                </div>
-                <div class="box color-2">
+                    <h3><?php echo $row_all_student['all_student'] ?>  <span>poeple</span></h3>
+                </div> 
+                <div class="box color-2 ">
                     <span>Female Students</span>
-                    <h3><?php echo $row_female_student['female_student'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_female_student['female_student'] ?> <span>poeple</span></h3>
                 </div>
-                <div class="box color-3">
+                <div class="box color-3 bg-info">
                     <span>All Teachers</span>
-                    <h3><?php echo $row_all_teacher['all_teacher'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_all_teacher['all_teacher'] ?> <span>poeple</span></h3>
                 </div>
-                <div class="box color-4">
+                <div class="box color-4 bg-primary">
                     <span>Female Teacher</span>
-                    <h3><?php echo $row_teacher_female['female_teacher'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_teacher_female['female_teacher'] ?> <span>poeple</span></h3>
                 </div>
 
                 <div class="box color-5">
                     <span>Vihecle</span>
-                    <h3><?php echo $row_vehicle['vehicle'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_vehicle['vehicle'] ?> <span>poeple</span></h3>
                 </div>
-                <div class="box color-6">
+                <div class="box color-6 bg-danger">
                     <span>Poor Students</span>
-                    <h3><?php echo $row_poor_student['poor_student'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_poor_student['poor_student'] ?> <span>poeple</span></h3>
                 </div>
-                <div class="box color-7">
+                <div class="box color-7 bg-success">
                     <span>MoEy Students</span>
-                    <h3><?php echo $row_moey_student['moey_student'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_moey_student['moey_student'] ?> <span>poeple</span></h3>
                 </div>
-                <div class="box color-8">
+                <div class="box color-8 bg-warning">
                     <span>Payment Students</span>
-                    <h3><?php echo $row_pay_student['pay_student'].'.00' ?> <span>poeple</span></h3>
+                    <h3><?php echo $row_pay_student['pay_student'] ?> <span>poeple</span></h3>
                 </div>
             </div>
             
@@ -95,7 +95,7 @@
                     </div>
                     <div class="py-2 table-responsive" style="height:310px">
                         <table class="table table-scrollable table-nowrap w-100 table-striped table-hover"  >
-                            <thead class="bg-success text-white">
+                            <thead class="bg-info text-white">
                                 <tr>
                                     <th>ល.រ</th>
                                     <th>ឈ្មោះ</th>
