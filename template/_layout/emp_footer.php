@@ -22,7 +22,7 @@
 </html>
 
 <script>
-    var url = "http://localhost:800/dormitory/";
+    var url = "http://localhost:80/sarana/";
    $(document).ready(function(){
         $('.user-img').click(function(){
             $('.user-menu').toggleClass('active');

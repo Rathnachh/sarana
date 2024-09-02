@@ -21,7 +21,7 @@
                             <th class="w-25">ឈ្មោះនិស្សិត</th>
                             <th class="w-25">គណនីប្រើប្រាស់</th>
                             <th class="w-25">សិទ្ធប្រើប្រាស់</th>
-                            <th class="w-25">សមកម្មភាព</th>
+                            <th class="w-25">សកម្មភាព</th>
                             <th class="w-25"></th>
                         </tr>
                     </thead>

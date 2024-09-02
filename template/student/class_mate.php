@@ -12,7 +12,7 @@
 
 <div class="content p-3 bg-white">
     <div class="title title d-flex align-items-center justify-content-between">
-        <h3><?php echo $_SESSION['room_name']?></h3>
+        <h3 class="kh-text font-weight-bolder text-info"><?php echo $_SESSION['room_name']?></h3>
     </div>
     <table class="table table-hover" id="info_payment">
         <?php
@@ -24,13 +24,13 @@
                     <tr class="p-0">
                         <td class="row pb-0">
                             <div class="col-lg-4 md-4 col-sm-12">
-                                <h6 class="text-primary"><?php echo $row['fname']?></h6>
+                                <h6 class="text-info"><?php echo $row['fname']?></h6>
                             </div>
                             <div class="col-lg-4 md-4 col-sm-12">
                                 <p class="text-success"><span><?php echo $row['name'] ?> </span>, <span class="text-info"><?php echo $row['subject_name']?> </span></p>
                             </div>
                             <div class="col-lg-4 md-4 col-sm-12 text-right">
-                                <p class="date_pay">នៅថៃ្ងទី <span><?php echo $row['register_date']?></span></p>
+                                <p class="date_pay text-secondary">នៅថៃ្ងទី <span><?php echo $row['register_date']?></span></p>
                             </div>
                             
                         </td>

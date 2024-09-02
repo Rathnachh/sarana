@@ -224,7 +224,7 @@ header .user {
 
 header .user .fa-bell {
   padding-right: 15px;
-  font-size: 18px;
+  font-size: 23px;
   color: #fff;
   opacity: 0.8;
   cursor: pointer;
@@ -245,8 +245,8 @@ header .user .fa-bell span {
 }
 
 header .user-img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: #fff;
   overflow: hidden;

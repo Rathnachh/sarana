@@ -98,7 +98,7 @@
                         <h4 style="font-size: 15px">អ្នកចុះឈ្មោះស្នាក់នៅថ្មី</h4>
                         <input type="search" class="form-control w-50" placeholder="Search..." id="searchname">
                     </div>
-                    <div class="py-2 table-responsive" style="height:310px">
+                    <div class="py-2 table-responsive" style="height:100%">
                         <table class="table table-scrollable table-nowrap w-100 table-striped table-hover"  >
                             <thead class="bg-info text-white">
                                 <tr>

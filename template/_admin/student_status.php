@@ -183,7 +183,7 @@
     // function to display information
     // Disable form submissions if there are invalid fields
     // Add new student type
-    var url = "http://localhost:800/php_project/dormitory/";
+    var url = "http://localhost:80/sarana/";
 
     function select_row()
     {

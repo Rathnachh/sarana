@@ -356,7 +356,7 @@
                         data:{_remove_vehicle_row:ID},
                         success:function(data)
                         {
-                            swal('Removed',"អ្នកត្រូបានធ្វើការលុបទិន្នន័យ ("+data+" row) បានដោយជោគជ័យ",'success');
+                            swal('Removed',"អ្នកបានធ្វើការលុបទិន្នន័យ ("+data+" row) បានដោយជោគជ័យ",'success');
                             setInterval(() => {
                                 window.location.reload();
                             }, 2000);

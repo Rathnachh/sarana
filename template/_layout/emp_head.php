@@ -111,7 +111,7 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="title p-2">
-                <h3>ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
+                <h3 class="text-info">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
             </div>
             <div class="user">
                 <i class="fa-solid fa-bell"><span>0</span></i>
