@@ -3,7 +3,7 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ជំនាញសិក្សា</h3>
+                <h3 class="kh-text text-info font-weight-bold">ជំនាញសិក្សា</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
                 <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_major"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -11,12 +11,12 @@
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <td class="w-50">ឈ្មោះវិទ្យាស្ថាន</td>
-                            <th class="w-25">ឈ្មោះជំនាញ</th>
-                            <th class="w-25">សកម្មភាព</th>
-                            <th class="d-none">សកម្មភាព</th>
-                            <th class="w-25 text-right">ប៊ូតុង</th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <td class="w-50 kh-text text-info">ឈ្មោះវិទ្យាស្ថាន</td>
+                            <th class="w-25 kh-text text-info">ឈ្មោះជំនាញ</th>
+                            <th class="w-25 kh-text text-info">សកម្មភាព</th>
+                            <th class="d-none kh-text text-info">សកម្មភាព</th>
+                            <th class="w-25 kh-text text-info text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>

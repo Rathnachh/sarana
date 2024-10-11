@@ -152,7 +152,7 @@ if (!isset($_SESSION['admin_name'])) {
                 <h3 class="text-center text-info">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
             </div>
             <div class="user">
-                <i class="fa-solid fa-bell text-info "><span>0</span></i>
+                <!-- <i class="fa-solid fa-bell text-info "><span>0</span></i> -->
                 <div class="user-img">
                     <img src="../../template/_admin/images/logo3.png" alt="">
 

@@ -2,7 +2,7 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>គ្រប់គ្រងអគារ</h3>
+                <h3 class="text-info kh-text font-weight-bold">គ្រប់គ្រងអគារ</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
                 <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_buildings"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -10,13 +10,13 @@
                 <table class="table nowrap table-hover table-responsive">
                     <thead>
                         <tr>
-                            <th class="">ល.រ</th>
-                            <th class="w-50">ឈ្មោះអគារ</th>
-                            <th class="w-25">សមកម្មភាព</th>
-                            <th class="w-25 text-right"></th>
+                            <th class="text-info kh-text ">ល.រ</th>
+                            <th class="w-50 text-info kh-text ">ឈ្មោះអគារ</th>
+                            <th class="w-25 text-info kh-text ">សកម្មភាព</th>
+                            <th class="w-25 text-info kh-text  text-right"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class=" kh-text ">
                     </tbody>
                 </table>
             </div>
@@ -183,7 +183,7 @@
                 }
                 else
                 {
-                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ចា សូមពិនិត្យមើលឡើងវិញ','warning');
+                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ហា សូមពិនិត្យមើលឡើងវិញ','warning');
                 }
                
                 $('.table').DataTable();

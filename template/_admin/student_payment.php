@@ -1,7 +1,7 @@
 <?php require_once('../_layout/head.php') ;?>
         <div class="content shadow p-3 bg-white">
             <div class="title title d-flex align-items-center justify-content-between">
-                <h3>ព័ត៌មានអំពីការបង់ប្រាក់</h3>
+                <h3 class="text-info kh-text font-weight-bold">ព័ត៌មានអំពីការបង់ប្រាក់</h3>
                 <a href="payment.php"><i class="fa-brands fa-amazon-pay" style="font-size:14px"></i> បង់ប្រាក់</a>
             </div>
             <div class="info-student my-3 ">
@@ -9,13 +9,13 @@
                     <thead>
                         <tr>
                             <th class="d-none"></th>
-                            <th>ល.រ</th>
-                            <th class="w-25 text-dark">ឈ្មោះនិស្សិត</th>
-                            <th class="">ភេទ</th>
-                            <th class="w-25 text-dark">បានបង់ប្រាក់</th>
-                            <th class="w-25 text-dark">មិនទាន់បង់ប្រាក់</th>
-                            <th class="w-25">ថ្ងៃបង់ប្រាក់</th>
-                            <th class="w-50 text-right">ថ្ងៃបញ្ចប់ការបង់ប្រាក់</th>
+                            <th class=" text-info kh-text">ល.រ</th>
+                            <th class="w-25 text-info kh-text">ឈ្មោះនិស្សិត</th>
+                            <th class=" text-info kh-text">ភេទ</th>
+                            <th class="w-25 text-info kh-text">បានបង់ប្រាក់</th>
+                            <th class="w-25 text-info kh-text">មិនទាន់បង់ប្រាក់</th>
+                            <th class="w-25  text-info kh-text">ថ្ងៃបង់ប្រាក់</th>
+                            <th class="w-50  text-info kh-text text-right">ថ្ងៃបញ្ចប់ការបង់ប្រាក់</th>
                         </tr>
                     </thead>
                     <tbody></tbody>

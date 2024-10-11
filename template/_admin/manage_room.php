@@ -2,7 +2,7 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>គ្រប់គ្រង់សិស្សដែលស្នាក់នៅតាមបន្ទប់នីមួយៗ</h3>
+                <h3 class="text-info kh-text font-weight-bold">គ្រប់គ្រងសិស្សដែលស្នាក់នៅតាមបន្ទប់នីមួយៗ</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
                 <a href="#add_floor" class="btn btn-sm" data-toggle="modal" data-target="#add_room"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -10,16 +10,16 @@
                 <table class="table nowrap table-hover w-100 table-responsive" id="example">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-25">ឈ្មោះបន្ទប់</th>
-                            <th class="w-25">ជាន់ទី</th>
-                            <th class="w-25">ឈ្មោះអគារ</th>
-                            <th class="d-none"></th>
-                            <th class="d-none"></th>
-                            <th class="d-none"></th>
-                            <th class="">សមកម្មភាព</th>
-                            <th class="w-25">ចំនួននិស្សិត</th>
-                            <th class="w-25">ប៊ូតុងចុច</th>
+                            <th class="text-info kh-text">ល.រ</th>
+                            <th class="w-25 text-info kh-text">ឈ្មោះបន្ទប់</th>
+                            <th class="w-25 text-info kh-text">ជាន់ទី</th>
+                            <th class="w-25 text-info kh-text">ឈ្មោះអគារ</th>
+                            <th class="d-none text-info kh-text"></th>
+                            <th class="d-none text-info kh-text"></th>
+                            <th class="d-none text-info kh-text"></th>
+                            <th class="text-info kh-text">សមកម្មភាព</th>
+                            <th class="w-25 text-info kh-text">ចំនួននិស្សិត</th>
+                            <th class="w-25 text-info kh-text">ប៊ូតុងចុច</th>
                         </tr>
                     </thead>
                    <tbody>

@@ -1,7 +1,7 @@
 <?php require_once('../_layout/head.php') ;?>
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex justify-content-between flex-wrap align-items-center">
-                <h3>ព័ត៌មានរបស់និស្សិតដែលស្នាក់នៅអន្តេវាសិកដ្ឋានទាងអស់ឆ្នាំ <?php echo date("Y")?></h3>
+                <h3 class="kh-text text-kh text-info font-weight-bold">ព័ត៌មានរបស់និស្សិតដែលស្នាក់នៅអន្តេវាសិកដ្ឋានទាងអស់ឆ្នាំ <?php echo date("Y")?></h3>
                 <!-- <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image"> -->
                 <a href="add_student.php" class="btn btn-sm"><i class="fa-solid fa-plus text-success"></i> ចុះឈ្មោះ </a>
             </div>
@@ -9,15 +9,15 @@
                 <table class="table nowrap table-hover w-100 table-responsive table-striped" id="example">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-25">ឈ្មោះ</th>
-                            <th class="w-25">ភេទ</th>
-                            <th class="w-25">ឆ្នាំសិក្សា</th>
-                            <th class="w-25">ជំនាញ</th>
-                            <th class="w-25">មកពីខេត្ត</th>
-                            <th class="w-25">លេខទូរសព្ទ</th>
-                            <th class="w-25">Active</th>
-                            <th class="w-25​​ text-right"></th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <th class="w-25 kh-text text-info">ឈ្មោះ</th>
+                            <th class="w-25 kh-text text-info">ភេទ</th>
+                            <th class="w-25 kh-text text-info">ឆ្នាំសិក្សា</th>
+                            <th class="w-25 kh-text text-info">ជំនាញ</th>
+                            <th class="w-25 kh-text text-info">មកពីខេត្ត</th>
+                            <th class="w-25 kh-text text-info">លេខទូរសព្ទ</th>
+                            <th class="w-25 kh-text text-info">Active</th>
+                            <th class="w-25 kh-text text-info​​ text-right"></th>
                         </tr>
                     </thead>
                     <tbody>

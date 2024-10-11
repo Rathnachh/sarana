@@ -96,7 +96,7 @@ if (!isset($_SESSION['user_role']) && $_SESSION['student_login'] != true) {
                 <h3 class="text-info">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់សិស្ស-និស្សិត</h3>
             </div>
             <div class="user">
-                <i class="fa-solid fa-bell text-info"><span>0</span></i>
+                <!-- <i class="fa-solid fa-bell text-info"><span>0</span></i> -->
                 <div class="user-img border border-info">
                     <img src="<?php echo DOMAIN . '/public/images/' . $_SESSION['image'] ?>" alt="">
                 </div>

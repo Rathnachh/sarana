@@ -3,7 +3,7 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ស្ថានភាពនិស្សិត</h3>
+                <h3 class="font-weight-bold kh-text text-info">ស្ថានភាពនិស្សិត</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
                 <a href="#add_student_status" class="btn btn-sm" data-toggle="modal" data-target="#add_student_status"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -11,11 +11,11 @@
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-50">ឈ្មោះ</th>
-                            <th class="w-25">ប្រាក់ត្រូវបង់</th>
-                            <th class="w-25">សកម្មភាព</th>
-                            <th class="w-25 text-right">ប៊ូតុង</th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <th class="w-50 kh-text text-info">ឈ្មោះ</th>
+                            <th class="w-25 kh-text text-info">ប្រាក់ត្រូវបង់</th>
+                            <th class="w-25 kh-text text-info">សកម្មភាព</th>
+                            <th class="w-25 kh-text text-info text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>

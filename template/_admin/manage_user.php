@@ -9,20 +9,20 @@
 
         <div class="content shadow p-3 bg-white ">
             <div class="title d-flex justify-content-between flex-wrap align-items-center">
-                <h3>ការគ្រប់គ្រងលើអ្នកប្រើប្រាស់ប្រព័ន្ធ</h3>
+                <h3 class="text-info kh-text font-weight-bold">ការគ្រប់គ្រងលើអ្នកប្រើប្រាស់ប្រព័ន្ធ</h3>
                 
             </div>
             <div class="info-student my-3 table-responsive">
                 <table class="table nowrap table-hover w-100 table-stripe " id="list_user">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
+                            <th class="kh-text">ល.រ</th>
                             <th class="d-none"></th>
-                            <th class="w-25">ឈ្មោះនិស្សិត</th>
-                            <th class="w-25">គណនីប្រើប្រាស់</th>
-                            <th class="w-25">សិទ្ធប្រើប្រាស់</th>
-                            <th class="w-25">សកម្មភាព</th>
-                            <th class="w-25"></th>
+                            <th class="w-25 kh-text text-info">ឈ្មោះនិស្សិត</th>
+                            <th class="w-25 kh-text text-info">គណនីប្រើប្រាស់</th>
+                            <th class="w-25 kh-text text-info">សិទ្ធប្រើប្រាស់</th>
+                            <th class="w-25 kh-text text-info">សកម្មភាព</th>
+                            <th class="w-25 kh-text text-info"></th>
                         </tr>
                     </thead>
                   <tbody></tbody>

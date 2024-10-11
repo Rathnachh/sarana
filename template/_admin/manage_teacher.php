@@ -2,22 +2,22 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex flex-wrap justify-content-between align-items-center">
-                <h3>ព័ត៌មានរបស់លោកគ្រូ​ អ្នកគ្រូ​ មន្ត្រី សាស្ត្រាចារ្យដែលស្នាក់នៅក្នុងអន្តេវាសិកដ្ឋានឆ្នាំ <?php echo date("Y")?></h3>
+                <h3 class="kh-text text-info font-weight-bold">ព័ត៌មានរបស់លោកគ្រូ​ អ្នកគ្រូ​ មន្ត្រី សាស្ត្រាចារ្យដែលស្នាក់នៅក្នុងអន្តេវាសិកដ្ឋានឆ្នាំ <?php echo date("Y")?></h3>
                 <!-- <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image"> -->
                 <a href="add_teacher.php" class="btn btn-sm"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="info-student my-3 ">
-                <table class="table nowrap table-hover w-100 table-responsive table-striped" id="List_data_teacher">
+                <table class="table nowrap table-hover w-100 table-responsive table-striped " id="List_data_teacher">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-25">ឈ្មោះ</th>
-                            <th class="">ភេទ</th>
-                            <th class="w-25">កម្រិតសិក្សា</th>
-                            <th class="">ជំនាញ</th>
-                            <th class="w-25">មកពីខេត្ត</th>
-                            <th class="w-25">លេខទូរសព្ទ</th>
-                            <th class="w-25 text-right my-btn">ប៊ូតុង</th>
+                            <th class="text-info kh-text">ល.រ</th>
+                            <th class="w-25 kh-text text-info">ឈ្មោះ</th>
+                            <th class="kh-text text-info ">ភេទ</th>
+                            <th class="w-25 kh-text text-info">កម្រិតសិក្សា</th>
+                            <th class="kh-text text-info">ជំនាញ</th>
+                            <th class="w-25 kh-text text-info">មកពីខេត្ត</th>
+                            <th class="w-25 kh-text text-info">លេខទូរសព្ទ</th>
+                            <th class="w-25 kh-text text-info text-right my-btn">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody></tbody>

@@ -3,19 +3,19 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ខេត្ត​ / ក្រុង</h3>
+                <h3 class="text-info kh-text font-weight-bold">ខេត្ត​ / ក្រុង</h3>
                 <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_major"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="info-student my-3 ">
                 <table class="table nowrap table-hover w-100 table-responsive" id="load_province">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th>លេខកូដ</th>
-                            <td class="w-25">ឈ្មោះខេត្តខ្មែរ</td>
-                            <td class="w-25">ឈ្មោះខេត្តអង់គ្លេស</td>
-                            <th class="w-25">ថ្ងៃខែឆ្នាំចុះបញ្ចី</th>
-                            <th class="w-25 text-right">ប៊ូតុង</th>
+                            <th class="text-info kh-text">ល.រ</th>
+                            <th class="text-info kh-text">លេខកូដ</th>
+                            <td class="w-25 text-info kh-text">ឈ្មោះខេត្តខ្មែរ</td>
+                            <td class="w-25 text-info kh-text">ឈ្មោះខេត្តអង់គ្លេស</td>
+                            <th class="w-25 text-info kh-text">ថ្ងៃខែឆ្នាំចុះបញ្ចី</th>
+                            <th class="w-25 text-info kh-text text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -2,19 +2,19 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title">
-                <h3>ព័ត៌មានយានយន្តរបស់និស្សិតទាំងអស់ដែលស្នាក់នៅក្នុងអន្តេវាសិកដ្ឋាន</h3>
+                <h3 class="text-info kh-text font-weight-bold">ព័ត៌មានយានយន្តរបស់និស្សិតទាំងអស់ដែលស្នាក់នៅក្នុងអន្តេវាសិកដ្ឋាន</h3>
             </div>
             <div class="info-student my-3 ">
                 <table class="table nowrap table-hover w-100 table-responsive" id="List_data_vihicle">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-25">ឈ្មោះ</th>
-                            <th class="">ភេទ</th>
-                            <th class="w-25">ម៉ាក់ម៉ូត៉ូ</th>
-                            <th class="w-25">ស្លាក់លេខម៉ូត៉ូ</th>
-                            <th class="w-25">ថ្ងៃខែចុះបញ្ចី</th>
-                            <th class="w-25​​ text-right">ប៉ូតុង</th>
+                            <th class="text-info kh-text">ល.រ</th>
+                            <th class="w-25 kh-text text-info">ឈ្មោះ</th>
+                            <th class="kh-text text-info">ភេទ</th>
+                            <th class="w-25 kh-text text-info">ម៉ាក់ម៉ូតូ</th>
+                            <th class="w-25 kh-text text-info">ស្លាកលេខម៉ូត៉ូ</th>
+                            <th class="w-25 kh-text text-info">ថ្ងៃខែចុះបញ្ជី</th>
+                            <th class="w-25 kh-text text-info text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <!-- <tbody>

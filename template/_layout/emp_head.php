@@ -119,7 +119,7 @@ if (!$_SESSION['emp_role'] == '2') {
                 <h3 class="text-info">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
             </div>
             <div class="user">
-                <i class="fa-solid fa-bell text-info"><span>0</span></i>
+                <!-- <i class="fa-solid fa-bell text-info"><span>0</span></i> -->
                 <div class="user-img">
                     <img src="../../public/assets/images/logo_uhst.png" alt="">
 
@@ -127,7 +127,7 @@ if (!$_SESSION['emp_role'] == '2') {
                 <div class="user-menu">
                     <h4>Admin</h4>
                     <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMIAN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
                 </div>
             </div>
         </header>

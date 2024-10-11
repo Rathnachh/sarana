@@ -2,8 +2,8 @@
 
         <div class="content p-3 bg-white">
             <div class="title d-flex align-items-center">
-                <a href="student_payment.php"><i class="fa-solid fa-arrow-left mr-3" style="font-size:18px"></i></a>
-                <h3>របាយការណ៍បង់ប្រាក់</h3>
+                <a href="student_payment.php"><i class="fa-solid fa-arrow-left mr-3 text-info" style="font-size:18px"></i></a>
+                <h3 class="text-info kh-text font-weight-bold">របាយការណ៍បង់ប្រាក់</h3>
             </div>
             <div class="row my-3">
                 <div class="col-lg-3">

@@ -3,18 +3,18 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ឃុំ / សង្កាត់</h3>
+                <h3 class="kh-text text-info font-wight-bold">ឃុំ / សង្កាត់</h3>
                 <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_major"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="info-student my-3 ">
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <td class="w-25">Code</td>
-                            <td class="w-25">ឃុំជាភាសាខ្មែរ</td>
-                            <td class="w-25">ឈ្ឃុំជាអង់គ្លេស</td>
-                            <th class="w-25">Modify Date</th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <td class="w-25 kh-text text-info">កូដ</td>
+                            <td class="w-25 kh-text text-info">ឃុំជាភាសាខ្មែរ</td>
+                            <td class="w-25 kh-text text-info">ឈ្ឃុំជាអង់គ្លេស</td>
+                            <th class="w-25 kh-text text-info">Modify Date</th>
                         </tr>
                     </thead>
                     <tbody>
