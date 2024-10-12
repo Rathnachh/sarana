@@ -11,10 +11,10 @@
                     <thead>
                         <tr>
                             <th class="kh-text text-info">ល.រ</th>
-                            <td class="w-25 kh-text text-info">Code</td>
+                            <td class="w-25 kh-text text-info">កូដ</td>
                             <td class="w-25 kh-text text-info">ជាភាសាខ្មែរ</td>
                             <td class="w-25 kh-text text-info">ស្រុកជាភាសាអង់គ្លេស</td>
-                            <th class="w-25  kh-text text-infotext-right">Modify date</th>
+                            <th class="w-25  kh-text text-info text-right">Modify date</th>
                   
                         </tr>
                     </thead>
@@ -124,16 +124,19 @@
             data:listRoom,
             columns:[
                 {
+                    className:'kh-text',
                     data:'n',AutoWidth:true,
                 },
                 {
-                    className:'text-center',
+                    className:'text-center kh-text',
                     data:'code',AutoWidth:true,
                 },
                 {
+                    className:'kh-text',
                     data:'district_namekh',AutoWidth:true,
                 },
                 {
+                
                     data:'district_name',AutoWidth:true,
                 },
                 {

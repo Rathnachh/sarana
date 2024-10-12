@@ -16,7 +16,7 @@
                             <th class="w-25 kh-text text-info">មកពីខេត្ត</th>
                             <th class="w-25 kh-text text-info">លេខទូរសព្ទ</th>
                             <th class="w-25 kh-text text-info">Active</th>
-                            <th class="w-25 kh-text text-info text-right"></th>
+                            <th class="w-25 text-info text-right"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -142,10 +142,16 @@
                 "<'row'<'col-md-5'i><'col-md-7'p>>", 
             columns:[
                 {
+                    className:'kh-text',
                     data:'n',AutoWidth:true,
                 },
-                {data:'fname',AutoWidth:true},
                 {
+                    className:'kh-text',
+                    data:'fname',AutoWidth:true
+
+                },
+                {
+                    className:'kh-text',
                     data:'gender',AutoWidth:true,
                     'render':function(data) 
                     {
@@ -155,10 +161,10 @@
                     }
                 
                 },
-                {data:'year_name',AutoWidth:true},
-                {data:'subject_name',AutoWidth:true},
-                {data:'province_kh_name',AutoWidth:true},
-                {data:'person_phone',AutoWidth:true},
+                {  className:'kh-text',data:'year_name',AutoWidth:true},
+                {  className:'kh-text',data:'subject_name',AutoWidth:true},
+                {  className:'kh-text',data:'province_kh_name',AutoWidth:true},
+                {  data:'person_phone',AutoWidth:true},
                 {
                     data:'feature',AutoWidth:true,
                     'render': function(data){

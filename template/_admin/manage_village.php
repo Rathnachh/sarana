@@ -130,20 +130,23 @@
             data:villageList,
             columns:[
                 {
+                    className:'kh-text',
                     data:'n',AutoWidth:true,
                 },
                 {
-                    className:'text-center',
+                    className:'text-center kh-text',
                     data:'code',AutoWidth:true,
                 },
                 {
+                    className:'kh-text',
                     data:'village_namekh',AutoWidth:true,
                 },
                 {
+                    className:'kh-text',
                     data:'village_name',AutoWidth:true,
                 },
                 {
-                    className:'text-right',
+                    className:'text-right kh-text',
                     data:'modify_date',AutoWidth:true,
                 }
             ]

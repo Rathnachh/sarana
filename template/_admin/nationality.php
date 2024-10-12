@@ -211,7 +211,7 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>0'+(n++)+'</td>\
-                                <td>'+value.nation_kh+'</td>\
+                                <td class="kh-text font-weight-light">'+value.nation_kh+'</td>\
                                 <td class="text-right">\
                                     <a href="#" id="update_nation_data" val='+value.id+' class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></a>\
                                 </td>\

@@ -193,10 +193,10 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>'+(n++)+'</td>\
-                                <td>'+value.floor_name+'</td>\
-                                <td>'+value.building_name+'</td>\
-                                <td class="d-none">'+value.building_id+'</td>\
-                                <td class="text-success">'+active+'</td>\
+                                <td class="kh-text">'+value.floor_name+'</td>\
+                                <td class="kh-text">'+value.building_name+'</td>\
+                                <td class="d-none kh-text">'+value.building_id+'</td>\
+                                <td class="text-success kh-text">'+active+'</td>\
                                 <td class="text-right">\
                                     <button type="button" data-id="'+value.id+'" id="btn_edit" class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></button>\
                                     <a href="view_st_floor.php?ST='+value.id+'&ROM='+value.floor_name+'&BDN='+value.building_name+'" class="btn btn-sm"><i class="fa-solid fa-eye text-info"></i></a>\

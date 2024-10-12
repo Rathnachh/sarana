@@ -143,7 +143,7 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>0'+(n++)+'</td>\
-                                <td>'+value.ethnicity+'</td>\
+                                <td class="kh-text font-weight-light">'+value.ethnicity+'</td>\
                                 <td class="text-right">\
                                     <a href="#" id="update_ethinicity_data" val='+value.id+' class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></a>\
                                 </td>\
@@ -153,7 +153,7 @@
                 }
                 else
                 {
-                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ចា សូមពិនិត្យមើលឡើងវិញ','warning');
+                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ហា សូមពិនិត្យមើលឡើងវិញ','warning');
                 }
                
                 $('.table').DataTable();

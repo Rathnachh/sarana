@@ -197,12 +197,12 @@
 
                         $('tbody').append(
                             '<tr>\
-                                <td>'+(n++)+'</td>\
-                                <td>'+value.subject_name+'</td>\
-                                <td class="d-none">'+value.faculti_id+'</td>\
-                                <td class="text-success">'+value.name+'</td>\
-                                <td class="text-success">'+active+'</td>\
-                                <td class="text-right">\
+                                <td class="kh-text">'+(n++)+'</td>\
+                                <td class="kh-text">'+value.subject_name+'</td>\
+                                <td class="d-none kh-text ">'+value.faculti_id+'</td>\
+                                <td class="text-success kh-text">'+value.name+'</td>\
+                                <td class="text-success kh-text">'+active+'</td>\
+                                <td class="text-right kh-text">\
                                     <button type="button" data-id="'+value.id+'" id="btn_edit" class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></button>\
                                     <button class="btn btn-sm" data-id="'+value.id+'" id="btn_active">'+feature+'</button>\
                                 </td>\
