@@ -2,7 +2,7 @@
 
 <?php
 if (!isset($_SESSION['admin_name'])) {
-    header('Location:' . DOMIAN . '/index.php');
+    header('Location:' . DOMAIN . '/index.php');
 }
 
 ?>
@@ -23,6 +23,7 @@ if (!isset($_SESSION['admin_name'])) {
     <!-- <link rel="stylesheet" href=" https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css"> -->
 
+    <link rel="icon" type="image/png" href="https://www.kbcambodia.com/wp-content/uploads/2016/08/Norton-University.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
@@ -70,7 +71,7 @@ if (!isset($_SESSION['admin_name'])) {
         <nav>
             <div class="nav-logo">
                 <div class="logo-img">
-                    <i class="fa-solid fa-graduation-cap fa-2xl text-light ml-3 "></i>
+                    <i class="fa-solid fa-graduation-cap fa-xl text-light ml-3 "></i>
                 </div>
                 <h3 class="text-light">Administrator</h3>
                 <div class="toggle-icon action">
@@ -151,15 +152,15 @@ if (!isset($_SESSION['admin_name'])) {
                 <h3 class="text-center text-info">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋានរបស់និស្សិត</h3>
             </div>
             <div class="user">
-                <i class="fa-solid fa-bell text-info "><span>0</span></i>
+                <!-- <i class="fa-solid fa-bell text-info "><span>0</span></i> -->
                 <div class="user-img">
                     <img src="../../template/_admin/images/logo3.png" alt="">
 
                 </div>
                 <div class="user-menu">
                     <h4>Admin</h4>
-                    <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMIAN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <a href="change_pass.php" class="kh-text"><i class="fas fa-lock"></i> ផ្លាស់ប្តូរពាក្យសម្ងាត់</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>" class="kh-text"><i class="fa-solid fa-arrow-right-from-bracket"></i>ចាកចេញ</a>
                 </div>
             </div>
         </header>

@@ -3,7 +3,7 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ជនជាតិ</h3>
+                <h3 class="kh-text text-info font-weight-bold">ជនជាតិ</h3>
                 <img src="images/abc.gif" id="_loadingData" class="overlay" alt="Image">
                 <a href="#add_ethinicity" class="btn btn-sm" data-toggle="modal" data-target="#add_ethinicity"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -11,9 +11,9 @@
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-50">ឈ្មោះ</th>
-                            <th class="w-50 text-right">ប៊ូតុង</th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <th class="kh-text text-info w-50">ឈ្មោះ</th>
+                            <th class="kh-text text-info w-50 text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -143,7 +143,7 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>0'+(n++)+'</td>\
-                                <td>'+value.ethnicity+'</td>\
+                                <td class="kh-text font-weight-light">'+value.ethnicity+'</td>\
                                 <td class="text-right">\
                                     <a href="#" id="update_ethinicity_data" val='+value.id+' class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></a>\
                                 </td>\
@@ -153,7 +153,7 @@
                 }
                 else
                 {
-                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ចា សូមពិនិត្យមើលឡើងវិញ','warning');
+                    swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ហា សូមពិនិត្យមើលឡើងវិញ','warning');
                 }
                
                 $('.table').DataTable();

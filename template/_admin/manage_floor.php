@@ -2,20 +2,20 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>គ្រប់គ្រង់សិស្សដែលស្នាក់នៅតាមជាន់នៃអគារនីមួយៗ</h3>
+                <h3 class="text-info kh-text font-weight-bold">គ្រប់គ្រងសិស្សដែលស្នាក់នៅតាមជាន់នៃអគារនីមួយៗ</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
-                <a href="#add_floor" class="btn btn-sm" data-toggle="modal" data-target="#add_floor"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
+                <a href="#add_floor" class="btn btn-sm text-info kh-text" data-toggle="modal" data-target="#add_floor"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="card p-3">
                 <table class="table nowrap table-hover table-responsive">
                     <thead>
                         <tr>
-                            <th class="">ល.រ</th>
-                            <th class="w-25">ជាន់នៃអគារ</th>
-                            <th class="w-50">ឈ្មោះអគារ</th>
-                            <th class="d-none"></th>
-                            <th class="w-25">សមកម្មភាព</th>
-                            <th class="w-25 text-right"></th>
+                            <th class="text-info kh-text">ល.រ</th>
+                            <th class="w-25 text-info kh-text">ជាន់នៃអគារ</th>
+                            <th class="w-50 text-info kh-text">ឈ្មោះអគារ</th>
+                            <th class="d-none text-info kh-text"></th>
+                            <th class="w-25 text-info kh-text">សមកម្មភាព</th>
+                            <th class="w-25 text-info kh-text text-right"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -193,10 +193,10 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>'+(n++)+'</td>\
-                                <td>'+value.floor_name+'</td>\
-                                <td>'+value.building_name+'</td>\
-                                <td class="d-none">'+value.building_id+'</td>\
-                                <td class="text-success">'+active+'</td>\
+                                <td class="kh-text">'+value.floor_name+'</td>\
+                                <td class="kh-text">'+value.building_name+'</td>\
+                                <td class="d-none kh-text">'+value.building_id+'</td>\
+                                <td class="text-success kh-text">'+active+'</td>\
                                 <td class="text-right">\
                                     <button type="button" data-id="'+value.id+'" id="btn_edit" class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></button>\
                                     <a href="view_st_floor.php?ST='+value.id+'&ROM='+value.floor_name+'&BDN='+value.building_name+'" class="btn btn-sm"><i class="fa-solid fa-eye text-info"></i></a>\

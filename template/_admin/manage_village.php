@@ -3,18 +3,18 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>ភូមិ</h3>
-                <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_major"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
+                <h3 class="font-weight-bold kh-text text-info">ភូមិ</h3>
+                <a href="#add_faculty" class="btn btn-sm font-weight-bold kh-text text-info" data-toggle="modal" data-target="#add_major"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="info-student my-3 ">
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <td class="w-25">Code</td>
-                            <td class="w-25">ឈ្មោះភូមិជាភាសារខ្មែរ</td>
-                            <td class="w-25">ឈ្មោះភូមិជាភាសារអង់គ្លេស</td>
-                            <th class="w-25">Modify date</th>
+                            <th  class="kh-text text-info">ល.រ</th>
+                            <td class="w-25 kh-text text-info ">កូដ</td>
+                            <td class="w-25 kh-text text-info">ឈ្មោះភូមិជាភាសារខ្មែរ</td>
+                            <td class="w-25 kh-text text-info">ឈ្មោះភូមិជាភាសារអង់គ្លេស</td>
+                            <th class="w-25 kh-text text-info">Modify date</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -130,20 +130,23 @@
             data:villageList,
             columns:[
                 {
+                    className:'kh-text',
                     data:'n',AutoWidth:true,
                 },
                 {
-                    className:'text-center',
+                    className:'text-center kh-text',
                     data:'code',AutoWidth:true,
                 },
                 {
+                    className:'kh-text',
                     data:'village_namekh',AutoWidth:true,
                 },
                 {
+                    className:'kh-text',
                     data:'village_name',AutoWidth:true,
                 },
                 {
-                    className:'text-right',
+                    className:'text-right kh-text',
                     data:'modify_date',AutoWidth:true,
                 }
             ]

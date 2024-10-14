@@ -45,8 +45,8 @@
 
         <div class="content shadow p-3 bg-white">
             <div class="title d-flex">
-                <a href="manage_teacher.php"><i class="fa-solid fa-arrow-left mr-3" style="font-size:18px"></i></a>
-                <h3>ព័ត៌មានលម្អិតរបស់<?php echo $row['name'] ?></h3>
+                <!-- <a href="manage_teacher.php"><i class="fa-solid fa-arrow-left mr-3 text-info" style="font-size:18px"></i></a> -->
+                <h3 class="text-info font-weight-bold kh-text">ព័ត៌មានលម្អិតរបស់<?php echo $row['name'] ?></h3>
             </div>
             <div class="row mt-3">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-3">
@@ -58,41 +58,45 @@
                 <table class="table table-borderless ">
                    
                     <tr>
-                        <td class="w-25">គោត្តនាម / នាម</td>
-                        <td>: <?php echo $row['fname'] ?> ជាអក្សរឡាតាំង : <?php echo $row['name_en'] ?></td>
+                        <td class="w-25 kh-text">គោត្តនាម / នាម</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['fname'] ?>  : </td>
                     </tr>
                     <tr>
-                        <td class="w-25">កាន់អត្តសញ្ញាណប័ណ្ឌលេខ</td>
-                        <td>: <?php echo $row['card_nation_id'] ?></td>
+                        <td class="w-25 kh-text">ជាអក្សរឡាតាំង</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['name_en'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">ភេទ</td>
-                        <td>: <?php if($row['gender']=='1') echo 'ស្រី';else echo 'ប្រុស'; ?></td>
+                        <td class="w-25 kh-text">កាន់អត្តសញ្ញាណប័ណ្ឌលេខ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['card_nation_id'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">ថ្ងៃខែឆ្នាំកំណើត</td>
-                        <td>: <?php echo $row['dob'] ?></td>
+                        <td class="w-25 kh-text">ភេទ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php if($row['gender']=='1') echo 'ស្រី';else echo 'ប្រុស'; ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">ជនជាតិ</td>
-                        <td>: <?php echo $row['ethnicity'] ?>, សញ្ជាតិ  : <?php echo $row['nation_kh'] ?></td>
+                        <td class="w-25 kh-text">ថ្ងៃខែឆ្នាំកំណើត</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['dob'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">លេខទូរសព្ទ</td>
-                        <td>: <?php echo $row['person_phone'] ?></td>
+                        <td class="w-25 kh-text">ជនជាតិ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['ethnicity'] ?>, សញ្ជាតិ  : <?php echo $row['nation_kh'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">លេខទូរសព្ទអាណាព្យាបាល</td>
-                        <td>: <?php echo $row['parent_phone'] ?></td>
+                        <td class="w-25 kh-text">លេខទូរសព្ទ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['person_phone'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 kh-text">លេខទូរសព្ទអាណាព្យាបាល</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['parent_phone'] ?></td>
                     </tr>
                    
                     <tr>
-                        <td class="w-25">ទីកន្លែងកំណើត</td>
-                        <td>: <?php echo $row['pro_name'].' '.$row['dis_name'].' '.$row['com_name'].' '.$row['village_name'] ?></td>
+                        <td class="w-25 kh-text">ទីកន្លែងកំណើត</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['pro_name'].' '.$row['dis_name'].' '.$row['com_name'].' '.$row['village_name'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">អាសយដ្ឋានបច្ចុប្បន្ន</td>
-                        <td>: <?php echo $row['province_kh_name'].' '.$row['district_namekh'].' '.$row['commune_namekh'].' '.$row['village_namekh'] ?></td>
+                        <td class="w-25 kh-text">អាសយដ្ឋានបច្ចុប្បន្ន</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['province_kh_name'].' '.$row['district_namekh'].' '.$row['commune_namekh'].' '.$row['village_namekh'] ?></td>
                     </tr>
                 </table>
                 </div>
@@ -102,27 +106,27 @@
                 <div class="col-lg-12">
                     <table class="table">
                     <tr>
-                        <td class="w-25">ស្នាក់នៅ</td>
-                        <td>: 
+                        <td class="w-25 kh-text">ស្នាក់នៅ</td>
+                        <td class="kh-text font-weight-bold text-info">: 
                             <?php echo $row['name_room'].' '.$row['floor_name'].' '.$row['building_name'] ?>
                         </td>
                     </tr>
                    
                     <tr>
-                        <td class="w-25">វិទ្យាស្ថាន</td>
-                        <td>: <?php echo $row['fa_name'] ?></td>
+                        <td class="w-25 kh-text">វិទ្យាស្ថាន</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['fa_name'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">ជំនាញ</td>
-                        <td>: <?php echo $row['subject_name'] ?></td>
+                        <td class="w-25 kh-text">ជំនាញ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['subject_name'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">សិក្សា</td>
-                        <td>: <?php echo $row['year_name'] ?></td>
+                        <td class="w-25 kh-text">សិក្សា</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['year_name'] ?></td>
                     </tr>
                     <tr>
-                    <td class="w-25">យានយន្ត</td>
-                        <td>: 
+                    <td class="w-25 kh-text">យានយន្ត</td>
+                        <td class="kh-text font-weight-bold text-info">: 
                         <?php 
                             if($row['ve_id'] == '')
                             {
@@ -136,12 +140,12 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="w-25">ប្រភេទ</td>
-                        <td>: <?php echo $row['status_name'] ?></td>
+                        <td class="w-25 kh-text">ប្រភេទ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['status_name'] ?></td>
                     </tr>
                     <tr>
-                        <td class="w-25">ថ្ងៃខែចុះឈ្មោះចូលស្នាក់នៅ</td>
-                        <td>: <?php echo $row['register_date'] ?></td>
+                        <td class="w-25 kh-text">ថ្ងៃខែចុះឈ្មោះចូលស្នាក់នៅ</td>
+                        <td class="kh-text font-weight-bold text-info">: <?php echo $row['register_date'] ?></td>
                     </tr>
                     </table>
                 </div>

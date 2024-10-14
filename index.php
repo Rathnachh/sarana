@@ -1,13 +1,13 @@
 <?php require_once('database/constants.php') ?>
 <?php
 if (isset($_SESSION['admin_id']) && isset($_SESSION['admin_name'])) {
-    header('Location:' . DOMIAN . '/template/_admin/dashboard.php');
+    header('Location:' . DOMAIN . '/template/_admin/dashboard.php');
 }
 if (isset($_SESSION['user_id']) && isset($_SESSION['student_name'])) {
-    header('Location:' . DOMIAN . '/template/student/home.php');
+    header('Location:' . DOMAIN . '/template/student/home.php');
 }
 if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
-    header('Location:' . DOMIAN . '/template/employee/dashboard.php');
+    header('Location:' . DOMAIN . '/template/employee/dashboard.php');
 }
 ?>
 
@@ -20,6 +20,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/logo_uhst.png" type="image/x-icon">
     <title>Login - panel</title>
+    <link rel="icon" type="image/png" href="https://www.kbcambodia.com/wp-content/uploads/2016/08/Norton-University.png">
     <link rel="stylesheet" href="public/assets/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- <link rel="stylesheet" href="public/dist/login.css"> -->
@@ -35,36 +36,44 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
             <div class="col-12 col-md-6 col-xl-7">
                 <div class="d-flex justify-content-center">
                     <div class="col-12 col-xl-9">
-                        <img class="img-fluid rounded mb-4 w-100" loading="lazy" src="https://www.norton-u.com/images/logo-banner-blue.png" width="245" height="80" alt="BootstrapBrain Logo">
-                        <hr class="border-primary-subtle mb-4">
-                        <h3 class=" mb-4 kh-text">សូមស្វាគមន៍មកកាន់​អន្តេវាសិកដ្ឋាន</h3>
-                        <p class="lead mb-3">Welcome To Our Dormitory System</p>
-                        <div class="text-endx d-flex align-items-center gap-2 ">
+                        <!-- <img class="img-fluid rounded mb-4 w-100" loading="lazy" src="https://scontent.fpnh20-1.fna.fbcdn.net/v/t39.30808-6/347226606_746520380557356_1675544049191350779_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8aNm1d939cYQ7kNvgFZdwlj&_nc_ht=scontent.fpnh20-1.fna&oh=00_AYCXp-PNxt9PrQDn0tGm_GVMHGbYCsFJ2E9lxXxFsuZNgQ&oe=66D61057" width="245" height="80" alt="BootstrapBrain Logo"> -->
+                        <div>
+                            <div class="user-img d-flex justify-content-center align-items-center">
+                               
+                                <img src="public/images/login.png"  class="w-50 rounded rounded-circle" alt="Login-logo">
+
+                            </div>
+                        </div>
+                        <h4 class=" my-4 kh-text text-center fw-bold text-primary">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋាននៃសាកលវិទ្យាល័យ <br>ហេងសំរិន ត្បូងឃ្មុំ </h4>
+                        <hr class="border border-primary border-1 opacity-50">
+                        <p class="text-dark kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសាកលវិទ្យាល័យន័រតុន ឆ្នាំសិក្សា ២០២៤</p>
+
+                        <div class="text-center d-flex align-items-center gap-2 ">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
                                 <path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                             </svg> -->
-                            <small class="text-primary kh-text">អភិវឌ្ឍន៍ដោយក្រុមទី១១នៃសកលវិទ្យាល័យន័រតុន</small>
+                            <!-- <small class="text-primary kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសកលវិទ្យាល័យន័រតុន</small> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-5">
-                <div class="card border border-info rounded-4 shadow-lg ">
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card border border-primary rounded-4 shadow-lg ">
                     <div class="card-body p-3 p-md-4 p-xl-5">
                         <div class="row">
                             <div class="col-12">
                                 <div class="mb-4">
-                                    <h3>Log in</h3>
+                                    <h3 class="text-center">Log in</h3>
                                 </div>
                             </div>
                         </div>
-                        <form  action="" id="form_login">
+                        <form action="" id="form_login">
                             <div class="row gy-3 overflow-hidden">
                                 <div class="col-12 mt-5">
                                     <div class="form-floating mb-3">
                                         <input id="username" class="form-control" name="username" value="<?php if (isset($_COOKIE["username"])) echo $_COOKIE["username"]; ?>" type="email" placeholder="Enter your username" required>
 
-                                        <label for="username" class="form-label text-secondary fw-light">Username</label>
+                                        <label for="username" class="form-label text-secondary fw-light kh-text">អុីមែល</label>
                                     </div>
                                     <span class="error error-username d-none" id="error_username">email is not
                                         registered</span>
@@ -74,7 +83,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                                     <div class="form-floating mb-2">
                                         <input id="password" class="form-control" name="password" type="password" value="<?php if (isset($_COOKIE["password"])) echo $_COOKIE["password"]; ?>" required placeholder="Enter your password">
 
-                                        <label for="password" class="form-label text-secondary fw-light">Password</label>
+                                        <label for="password" class="form-label text-secondary fw-light​ kh-text">លេខសម្ងាត់</label>
                                     </div>
                                     <span class="error error-password d-none" id="error_password">password is
                                         incorrect</span>
@@ -87,8 +96,8 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                                     </label>
                                 </div>
                                 <div class="col-12 ">
-                                    <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg rounded-pill" type="submit">Log in
+                                    <div class="d-grid kh-text">
+                                        <button class="kh-text btn btn-primary text-light btn-lg rounded-pill " type="submit">ចូល
                                         </button>
                                     </div>
                                 </div>
@@ -97,7 +106,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <div class="row">
                             <div class="col-12 text-center pt-4">
 
-                                <p class="fw-light">Don't have an account? <a href="#!">Register</a></p>
+                                <p class="fw-light kh-text">មិនទាន់មានគណនី? <a href="register.php" class="text-primary  kh-text text-underline font-weight-bold">ចុះឈ្មោះ</a></p>
 
                             </div>
                         </div>

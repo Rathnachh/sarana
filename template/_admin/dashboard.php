@@ -47,42 +47,42 @@
         ?>
         <div class="content p-3 ">
             <div class="title">
-                <h3 class="text-info kh-text">ផ្ទាំងគ្រប់គ្រង</h3>
+                <h3 class="text-info kh-text font-weight-bold">ផ្ទាំងគ្រប់គ្រង</h3>
             </div>
 
             <div class="list-box">
                 <div class="box color-1 bg-info">
-                    <span>All Students</span>
-                    <h3><?php echo $row_all_student['all_student'].'.00' ?>  <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនសិស្សស្នាក់នៅសរុប</span>
+                    <h3><?php echo $row_all_student['all_student'] ?>  <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-2 bg-info">
-                    <span>Female Students</span>
-                    <h3><?php echo $row_female_student['female_student'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនសិស្សនារី</span>
+                    <h3><?php echo $row_female_student['female_student'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-3 bg-primary opacity-50">
-                    <span>All Teachers</span>
-                    <h3><?php echo $row_all_teacher['all_teacher'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនគ្រូស្នាក់សរុប</span>
+                    <h3><?php echo $row_all_teacher['all_teacher'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-4  bg-primary">
-                    <span>Female Teacher</span>
-                    <h3><?php echo $row_teacher_female['female_teacher'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនអ្នកគ្រូ</span>
+                    <h3><?php echo $row_teacher_female['female_teacher'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
 
                 <div class="box color-5">
-                    <span>Vihecle</span>
-                    <h3><?php echo $row_vehicle['vehicle'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនយានជំនិះ</span>
+                    <h3><?php echo $row_vehicle['vehicle'] ?> <span class="kh-text">គ្រឿង</span></h3>
                 </div>
                 <div class="box color-6 bg-danger">
-                    <span>Poor Students</span>
-                    <h3><?php echo $row_poor_student['poor_student'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនសិស្សក្រីក្រ</span>
+                    <h3><?php echo $row_poor_student['poor_student'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-7 bg-success">
-                    <span>MoEy Students</span>
-                    <h3><?php echo $row_moey_student['moey_student'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនសិស្សអាហារូបករណ៍</span>
+                    <h3><?php echo $row_moey_student['moey_student'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-8 bg-warning">
-                    <span>Payment Students</span>
-                    <h3><?php echo $row_pay_student['pay_student'].'.00' ?> <span>poeple</span></h3>
+                    <span class="kh-text">ចំនួនសិស្សដែលបានបង់ប្រាក់</span>
+                    <h3><?php echo $row_pay_student['pay_student'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
             </div>
             
@@ -95,18 +95,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center justify-content-between">
-                        <h4 style="font-size: 15px">អ្នកចុះឈ្មោះស្នាក់នៅថ្មី</h4>
-                        <input type="search" class="form-control w-50" placeholder="Search..." id="searchname">
+                        <h4 style="font-size: 15px" class="kh-text">អ្នកចុះឈ្មោះស្នាក់នៅថ្មី</h4>
+                        <input type="search" class="form-control w-50" placeholder="ស្វែងរក..." id="searchname">
                     </div>
-                    <div class="py-2 table-responsive" style="height:310px">
+                    <div class="py-2 table-responsive" style="height:100%">
                         <table class="table table-scrollable table-nowrap w-100 table-striped table-hover"  >
                             <thead class="bg-info text-white">
                                 <tr>
-                                    <th>ល.រ</th>
-                                    <th>ឈ្មោះ</th>
-                                    <th>ភេទ</th>
-                                    <th>មកពីខេត្ត</th>
-                                    <th class="text-right">ប៊ូតុង</th>
+                                    <th class="kh-text">ល.រ</th>
+                                    <th class="kh-text">ឈ្មោះ</th>
+                                    <th class="kh-text">ភេទ</th>
+                                    <th class="kh-text">មកពីខេត្ត</th>
+                                    <th class="text-right kh-text">ប៊ូតុង</th>
                                 </tr>
                             </thead>
                             <tbody>

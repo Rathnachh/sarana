@@ -3,7 +3,7 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>សញ្ជាតិ</h3>
+                <h3 class="kh-text text-info font-weight-bold">សញ្ជាតិ</h3>
                 <img src="images/abc.gif" id="_loadingData" class="overlay" alt="Image">
                 <a href="#add_nation" class="btn btn-sm" data-toggle="modal" data-target="#add_nation"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -11,9 +11,9 @@
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-50">ឈ្មោះ</th>
-                            <th class="w-50 text-right">ប៊ូតុង</th>
+                            <th class="kh-text text-info">ល.រ</th>
+                            <th class="w-50 kh-text text-info">ឈ្មោះ</th>
+                            <th class="w-50 kh-text text-info text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -211,7 +211,7 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>0'+(n++)+'</td>\
-                                <td>'+value.nation_kh+'</td>\
+                                <td class="kh-text font-weight-light">'+value.nation_kh+'</td>\
                                 <td class="text-right">\
                                     <a href="#" id="update_nation_data" val='+value.id+' class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></a>\
                                 </td>\

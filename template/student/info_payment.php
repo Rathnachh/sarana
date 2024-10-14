@@ -8,7 +8,7 @@
 
 <div class="content bg-white p-3">
     <div class="title title d-flex align-items-center justify-content-between">
-        <h3>ព័ត៌មានពីការបង់ប្រាក់</h3>
+        <h3 class="text-info kh-text font-weight-bold">ព័ត៌មានពីការបង់ប្រាក់</h3>
     </div>
     <table class="table table-hover" id="info_payment">
         <?php
@@ -36,7 +36,7 @@
             }
             else 
             {
-                echo '<div class="alert alert-info">មិនមានទិន្នន័យបង់ប្រាក់ទេ សូមអរគុណ!!!</div>';
+                echo '<div class="alert alert-info kh-text">មិនមានទិន្នន័យបង់ប្រាក់ទេ សូមអរគុណ!!!</div>';
             }
             
         ?>

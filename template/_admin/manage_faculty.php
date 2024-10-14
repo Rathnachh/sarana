@@ -3,7 +3,7 @@
         <div class="content shadow row p-3 bg-white">
             <div class="col-lg-12">
             <div class="title d-flex justify-content-between align-items-center">
-                <h3>វិទ្យាស្ថាន</h3>
+                <h3 class="text-info kh-text font-weight-bold">វិទ្យាស្ថាន</h3>
                 <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
                 <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_faculty"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
             </div>
@@ -11,10 +11,10 @@
                 <table class="table nowrap table-hover w-100 table-responsive">
                     <thead>
                         <tr>
-                            <th>ល.រ</th>
-                            <th class="w-50">ឈ្មោះវិទ្យាស្ថាន</th>
-                            <th class="w-25">សកម្មភាព</th>
-                            <th class="w-25 text-right">ប៊ូតុង</th>
+                            <th class="text-info kh-text font-weight-bold">ល.រ</th>
+                            <th class="w-50 kh-text text-info">ឈ្មោះវិទ្យាស្ថាន</th>
+                            <th class="w-25 kh-text text-info">សកម្មភាព</th>
+                            <th class="w-25 kh-text text-info text-right">ប៊ូតុង</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -177,7 +177,7 @@
                         $('tbody').append(
                             '<tr>\
                                 <td>'+(n++)+'</td>\
-                                <td>'+value.name+'</td>\
+                                <td class="kh-text font-weight-light">'+value.name+'</td>\
                                 <td class="text-success">'+active+'</td>\
                                 <td class="text-right">\
                                     <button type="button" data-id="'+value.id+'" id="btn_edit" class="btn btn-sm"><i class="fa-solid fa-pen-to-square text-success"></i></button>\
