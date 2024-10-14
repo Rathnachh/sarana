@@ -159,8 +159,8 @@ if (!isset($_SESSION['admin_name'])) {
                 </div>
                 <div class="user-menu">
                     <h4>Admin</h4>
-                    <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMAIN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                    <a href="change_pass.php" class="kh-text"><i class="fas fa-lock"></i> ផ្លាស់ប្តូរពាក្យសម្ងាត់</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>" class="kh-text"><i class="fa-solid fa-arrow-right-from-bracket"></i>ចាកចេញ</a>
                 </div>
             </div>
         </header>

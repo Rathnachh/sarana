@@ -24,13 +24,13 @@
                     <tr class="p-0">
                         <td class="row pb-0">
                             <div class="col-lg-4 md-4 col-sm-12">
-                                <h6 class="text-info"><?php echo $row['fname']?></h6>
+                                <h6 class="text-info kh-text"><?php echo $row['fname']?></h6>
                             </div>
                             <div class="col-lg-4 md-4 col-sm-12">
-                                <p class="text-success"><span><?php echo $row['name'] ?> </span>, <span class="text-info"><?php echo $row['subject_name']?> </span></p>
+                                <p class="text-secondary kh-text" >មកពី : <span class="text-success kh-text"><?php echo $row['name'] ?> </span>, <span class="text-info kh-text"><?php echo $row['subject_name']?> </span></p>
                             </div>
                             <div class="col-lg-4 md-4 col-sm-12 text-right">
-                                <p class="date_pay text-secondary">នៅថៃ្ងទី <span><?php echo $row['register_date']?></span></p>
+                                <p class="date_pay text-secondary kh-text">នៅថៃ្ងទី <span><?php echo $row['register_date']?></span></p>
                             </div>
                             
                         </td>
@@ -40,7 +40,7 @@
             }
             else 
             {
-                echo '<div class="alert alert-info">មិនមានទិន្នន័យបង់ប្រាក់ទេ សូមអរគុណ!!!</div>';
+                echo '<div class="alert alert-info kh-text">មិនមានទិន្នន័យបង់ប្រាក់ទេ សូមអរគុណ!!!</div>';
             }
             
         ?>

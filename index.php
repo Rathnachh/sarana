@@ -73,7 +73,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                                     <div class="form-floating mb-3">
                                         <input id="username" class="form-control" name="username" value="<?php if (isset($_COOKIE["username"])) echo $_COOKIE["username"]; ?>" type="email" placeholder="Enter your username" required>
 
-                                        <label for="username" class="form-label text-secondary fw-light">អុីមែល</label>
+                                        <label for="username" class="form-label text-secondary fw-light kh-text">អុីមែល</label>
                                     </div>
                                     <span class="error error-username d-none" id="error_username">email is not
                                         registered</span>
@@ -83,7 +83,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                                     <div class="form-floating mb-2">
                                         <input id="password" class="form-control" name="password" type="password" value="<?php if (isset($_COOKIE["password"])) echo $_COOKIE["password"]; ?>" required placeholder="Enter your password">
 
-                                        <label for="password" class="form-label text-secondary fw-light">លេខសំងាត់</label>
+                                        <label for="password" class="form-label text-secondary fw-light​ kh-text">លេខសម្ងាត់</label>
                                     </div>
                                     <span class="error error-password d-none" id="error_password">password is
                                         incorrect</span>
@@ -96,8 +96,8 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                                     </label>
                                 </div>
                                 <div class="col-12 ">
-                                    <div class="d-grid">
-                                        <button class="btn btn-primary text-light btn-lg rounded-pill" type="submit">ចូល
+                                    <div class="d-grid kh-text">
+                                        <button class="kh-text btn btn-primary text-light btn-lg rounded-pill " type="submit">ចូល
                                         </button>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <div class="row">
                             <div class="col-12 text-center pt-4">
 
-                                <p class="fw-light">មិនទាន់មានគណនី? <a href="register.php" class="text-primary">ចុះឈ្មោះ</a></p>
+                                <p class="fw-light kh-text">មិនទាន់មានគណនី? <a href="register.php" class="text-primary  kh-text text-underline font-weight-bold">ចុះឈ្មោះ</a></p>
 
                             </div>
                         </div>

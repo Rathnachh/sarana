@@ -3,7 +3,7 @@
     <div class="title d-flex justify-content-between flex-wrap align-items-center">
         <h3 class="kh-text text-kh text-info font-weight-bold">ព័ត៌មានរបស់និស្សិតដែលស្នាក់នៅអន្តេវាសិកដ្ឋានទាងអស់ឆ្នាំ <?php echo date("Y") ?></h3>
         <!-- <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image"> -->
-        <a href="add_student.php" class="btn btn-sm"><i class="fa-solid fa-plus text-success"></i> ចុះឈ្មោះ </a>
+        <a href="add_student.php" class="btn btn-sm kh-text"><i class="fa-solid fa-plus text-success"></i> ចុះឈ្មោះ </a>
     </div>
     <div class="info-student my-3 ">
         <table class="table nowrap table-hover w-100 table-responsive table-striped" id="example">

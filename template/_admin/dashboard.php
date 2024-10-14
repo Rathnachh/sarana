@@ -60,7 +60,7 @@
                     <h3><?php echo $row_female_student['female_student'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-3 bg-primary opacity-50">
-                    <span class="kh-text">ចំនួនគ្រូសរុប</span>
+                    <span class="kh-text">ចំនួនគ្រូស្នាក់សរុប</span>
                     <h3><?php echo $row_all_teacher['all_teacher'] ?> <span class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-4  bg-primary">
@@ -96,7 +96,7 @@
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center justify-content-between">
                         <h4 style="font-size: 15px" class="kh-text">អ្នកចុះឈ្មោះស្នាក់នៅថ្មី</h4>
-                        <input type="search" class="form-control w-50" placeholder="Search..." id="searchname">
+                        <input type="search" class="form-control w-50" placeholder="ស្វែងរក..." id="searchname">
                     </div>
                     <div class="py-2 table-responsive" style="height:100%">
                         <table class="table table-scrollable table-nowrap w-100 table-striped table-hover"  >

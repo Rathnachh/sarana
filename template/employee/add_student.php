@@ -3,8 +3,8 @@
 <div class="content shadow row p-3 bg-white">
 <div class="col-lg-12">
     <div class="title d-flex align-items-center">
-    <a href="manage_student.php"><i class="fa-solid fa-arrow-left mr-3" style="font-size:18px"></i></a>
-        <h3>ចុះឈ្មោះ</h3>
+    <a href="manage_student.php"><i class="fa-solid fa-arrow-left mr-3 text-info" style="font-size:18px"></i></a>
+        <h3 class="kh-text font-weight-bold text-info">ចុះឈ្មោះ</h3>
     </div>
     <div class="info-student my-3 ">
         <form autocomplete="off" method="post" enctype="multipart/form-data" role="form" class="register_form needs-validation" novalidate>
@@ -24,23 +24,23 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="full_name_kh">គោត្តនាម / នាម</label>
-                            <input type="text" class="form-control" placeholder="Enter full name" name="full_name_kh" id="full_name_kh" required>
+                            <label class="kh-text" for="full_name_kh">គោត្តនាម / នាម</label>
+                            <input type="text" class="form-control kh-text" placeholder="សូមវាយបញ្ចូល" name="full_name_kh" id="full_name_kh" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="en_fullname">ឈ្មោះជាអក្សរឡាតាំង</label>
-                            <input type="text" class="form-control" placeholder="Enter full name" name="en_fullname" id="en_fullname" required>
+                            <label class="kh-text" for="en_fullname">ឈ្មោះជាអក្សរឡាតាំង</label>
+                            <input type="text" class="form-control kh-text" placeholder="សូមវាយបញ្ចូល" name="en_fullname" id="en_fullname" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="gender">ភេទ</label>
+                            <label class="kh-text" for="gender">ភេទ</label>
                             <select name="gender" class="form-control" id="gender" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                                 <option value="1">ស្រី</option>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="ethnicity">ជនជាតិ</label>
+                            <label class="kh-text" for="ethnicity">ជនជាតិ</label>
                             <select name="ethnicity" class="form-control" id="ethnicity" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសជនជាតិ--</option>
                             </select>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="nation">សញ្ជាតិ</label>
+                            <label class="kh-text" for="nation">សញ្ជាតិ</label>
                             <select name="nation" class="form-control" id="nation" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសសញ្ជាតិ--</option>
                             </select>
@@ -72,16 +72,16 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="ID_card">លេខអត្តសញ្ញាណប័ណ្ឌ</label>
-                            <input type="text" class="form-control" placeholder="Enter full name" name="ID_card" id="ID_card">
+                            <label class="kh-text" for="ID_card">លេខអត្តសញ្ញាណប័ណ្ឌ</label>
+                            <input type="text" class="form-control kh-text" placeholder="សូមវាយបញ្ចូល" name="ID_card" id="ID_card">
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="dob">ថ្ងៃខែឆ្នាំកំណើត</label>
-                            <input type="date" class="form-control" placeholder="Enter full name" required name="dob" id="dob">
+                            <label class="kh-text" for="dob">ថ្ងៃខែឆ្នាំកំណើត</label>
+                            <input type="date" class="form-control" placeholder="សូមវាយបញ្ចូល" required name="dob" id="dob">
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
@@ -89,12 +89,12 @@
                     </div>
 
                     <!--row 1-->
-                    <label for="" style="margin-top: 10px;">ទីកន្លែងកំណើត</label>
+                    <label class="kh-text font-weight-bold" for="" style="margin-top: 10px;">ទីកន្លែងកំណើត</label>
                     <hr style="margin:0 0 20px 0px;">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="province">ខេត្ត ឬ ក្រុង</label>
+                                <label class="kh-text" for="province">ខេត្ត ឬ ក្រុង</label>
                                 <select name="province" class="form-control" id="province" required>
                                     <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសខេត្ត--</option>
                                 </select>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="district">ស្រុក ឬ​ ខណ្ឌ</label>
+                                <label class="kh-text" for="district">ស្រុក ឬ​ ខណ្ឌ</label>
                                 <select name="district" class="form-control" id="district" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសខេត្តជាមុនសិន--</option>
                                 </select>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="community">ឃុំ ឬ សង្កាត់</label>
+                                <label class="kh-text" for="community">ឃុំ ឬ សង្កាត់</label>
                                 <select name="community" class="form-control" id="community" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសស្រុកជាមុនសិន--</option>
                                 </select>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="village">ភូមិ</label>
+                                <label class="kh-text" for="village">ភូមិ</label>
                                 <select name="village" class="form-control" id="village" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសឃុំជាមុនសិន--</option>
                                 </select>
@@ -137,12 +137,12 @@
             </div>
 
             <!--row 2-->
-            <label for="" style="margin-top: 10px;">ទីកន្លែងបច្ចុប្បន្ន</label>
+            <label class="kh-text font-weight-bold" for="" style="margin-top: 10px;">ទីកន្លែងបច្ចុប្បន្ន</label>
             <hr style="margin:0 0 20px 0px;">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_province">ខេត្ត ឬ ក្រុង</label>
+                        <label class="kh-text" for="current_province">ខេត្ត ឬ ក្រុង</label>
                         <select name="current_province" class="form-control" id="current_province" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_destrict">ស្រុក ឬ​ ខណ្ឌ</label>
+                        <label class="kh-text" for="current_destrict">ស្រុក ឬ​ ខណ្ឌ</label>
                         <select name="current_destrict" class="form-control" id="current_destrict" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_community">ឃុំ ឬ សង្កាត់</label>
+                        <label class="kh-text" for="current_community">ឃុំ ឬ សង្កាត់</label>
                         <select name="current_community" class="form-control" id="current_community" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_village">ភូមិ</label>
+                        <label class="kh-text" for="current_village">ភូមិ</label>
                         <select name="current_village" class="form-control" id="current_village" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
@@ -183,12 +183,12 @@
             </div>
 
             <!--row 2-->
-            <label for="" style="margin-top: 10px;">ជាសិស្ស​ ឬនិស្សិត</label>
+            <label class="kh-text font-weight-bold" for="" style="margin-top: 10px;">ជាសិស្ស​ ឬនិស្សិត</label>
             <hr style="margin:0 0 20px 0px;">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="_faculty">មហាវិទ្យាល័យ ឬវិទ្យាស្ថាន</label>
+                        <label class="kh-text" for="_faculty">មហាវិទ្យាល័យ ឬវិទ្យាស្ថាន</label>
                         <select name="_faculty" class="form-control" id="_faculty" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ--</option>
                         </select>
@@ -198,7 +198,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="major">ជំនាញ</label>
+                        <label class="kh-text" for="major">ជំនាញ</label>
                         <select name="major" class="form-control" id="major" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ ឬវិស្ថានជាមុនសិន--</option>
                         </select>
@@ -209,7 +209,7 @@
                 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="_academic">ឆ្នាំសិក្សា</label>
+                        <label class="kh-text" for="_academic">ឆ្នាំសិក្សា</label>
                         <select name="_academic" class="form-control" id="_academic" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសឆ្នាំសិក្សា--</option>
                         </select>
@@ -219,7 +219,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="degree">កម្រិតសិក្សា</label>
+                        <label class="kh-text" for="degree">កម្រិតសិក្សា</label>
                         <select name="degree" class="form-control" id="degree" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="building_id">អគារ</label>
+                        <label class="kh-text" for="building_id">អគារ</label>
                         <select name="building_id" class="form-control" id="building_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសអគារ--</option>
                         </select>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="floor_id">ជាន់ទី</label>
+                        <label class="kh-text" for="floor_id">ជាន់ទី</label>
                         <select name="floor_id" class="form-control" id="floor_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសអគារជាមុនសិន--</option>
                         </select>
@@ -249,7 +249,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="room_id">បន្ទប់លេខ</label>
+                        <label class="kh-text" for="room_id">បន្ទប់លេខ</label>
                         <select name="room_id" class="form-control" id="room_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសជាន់នៃអគារជាមុនសិន--</option>
                         </select>
@@ -259,31 +259,31 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="person_mobile">លេខទូរសព្ទទំនាក់ទំនង</label>
-                        <input type="tel" class="form-control" placeholder="Enter full name" name="person_mobile" id="person_mobile">
+                        <label class="kh-text" for="person_mobile">លេខទូរសព្ទទំនាក់ទំនង</label>
+                        <input type="tel" class="form-control kh-text" placeholder="សូមវាយបញ្ចូល" name="person_mobile" id="person_mobile">
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="email">អុីម៉ែល</label>
-                        <input type="email" class="form-control" placeholder="example@email.com" required name="email" id="email">
+                        <label class="kh-text" for="email">អុីម៉ែល</label>
+                        <input type="email" class="form-control" placeholder="សូមវាយបញ្ចូល" required name="email" id="email">
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="phone_parent">លេខទូរសព្ទអណាព្យាបាល</label>
-                        <input type="tel" class="form-control" placeholder="Enter full name" name="phone_parent" id="phone_parent  ">
+                        <label class="kh-text" for="phone_parent">លេខទូរសព្ទអណាព្យាបាល</label>
+                        <input type="tel" class="form-control kh-text" placeholder="សូមវាយបញ្ចូល" name="phone_parent" id="phone_parent  ">
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="student_type">ប្រភេទ</label>
+                        <label class="kh-text" for="student_type">ប្រភេទ</label>
                         <select name="student_type" class="form-control" id="student_type" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
@@ -293,7 +293,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="student_status">status</label>
+                        <label class="kh-text" for="student_status">status</label>
                         <select name="student_status" class="form-control" id="student_status" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
@@ -303,8 +303,8 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 pt-2">
                     <img src="images/abc.gif" id="overlay" class="overlay float-right" alt="Image">
-                    <button type="submit" class="btn btn-primary mt-2 float-right" id = "register">ចុះឈ្មោះ</button>
-                    <button type="button" class="btn btn-danger mt-2 mx-3 float-right" id = "btn_clear">សម្អាត</button>
+                    <button type="submit" class="btn btn-info mt-2 float-right kh-text" id = "register">ចុះឈ្មោះ</button>
+                    <button type="button" class="btn btn-danger mt-2 mx-3 float-right kh-text" id = "btn_clear">សម្អាត</button>
                 </div>
             </div>
 

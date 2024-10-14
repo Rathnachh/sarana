@@ -74,10 +74,10 @@ if (!isset($_SESSION['user_role']) && $_SESSION['student_login'] != true) {
                         <a href="home.php" class="dashboardMainNav"><i class="fa-solid fa-house"></i> ទំព័រដើម</a>
                     </li>
                     <li>
-                        <a href="info_payment.php" class="infoTeacherMainNav"><i class="fa-solid fa-comment-dollar"></i> ព័ត៌មានបង់លុយ</a>
+                        <a href="info_payment.php" class="infoTeacherMainNav"><i class="fa-solid fa-comment-dollar"></i> ព័ត៌មានបង់ប្រាក់</a>
                     </li>
                     <li>
-                        <a href="class_mate.php" class="infoStudentMainNav"><i class="fa-solid fa-user-group"></i> មិត្តរូមបន្ទប់</a>
+                        <a href="class_mate.php" class="infoStudentMainNav"><i class="fa-solid fa-user-group"></i> មិត្តរួមបន្ទប់</a>
                     </li>
                     <li>
                         <a href="policy.php" class="usernameMainNav"><i class="fa-solid fa-scale-balanced"></i> បទបញ្ជាផ្ទៃក្នុង</a>
@@ -102,9 +102,9 @@ if (!isset($_SESSION['user_role']) && $_SESSION['student_login'] != true) {
                 </div>
                 <div class="user-menu">
                     <h4 style="font-size:16px"><?php echo $_SESSION['student_name'] ?></h4>
-                    <a href="student_details.php"><i class="fas fa-user"></i> My information</a>
-                    <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMAIN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <a href="student_details.php" class="kh-text"><i class="fas fa-user"></i> ព័តមានរបស់ខ្ញុំ</a>
+                    <a href="change_pass.php" class="kh-text"><i class="fas fa-lock"></i> ផ្លាស់ប្តូរពាក្យសម្ងាត់</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>" class="kh-text"><i class="fa-solid fa-arrow-right-from-bracket"></i> ចាកចេញ</a>
                 </div>
             </div>
         </header>

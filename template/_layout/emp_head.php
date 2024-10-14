@@ -75,7 +75,7 @@ if (!$_SESSION['emp_role'] == '2') {
         <nav>
             <div class="nav-logo">
                 <div class="logo-img">
-                    <img src="../../public/assets/images/logo_uhst.png" alt="">
+                    <img src="../../public/assets/images/emp.png" class="w-100 rounded-circle" alt="">
                 </div>
                 <h3 class="text-light">Employee</h3>
                 <div class="toggle-icon action ">
@@ -121,13 +121,13 @@ if (!$_SESSION['emp_role'] == '2') {
             <div class="user">
                 <!-- <i class="fa-solid fa-bell text-info"><span>0</span></i> -->
                 <div class="user-img">
-                    <img src="../../public/assets/images/logo_uhst.png" alt="">
+                    <img src="../../public/assets/images/emp.png" class="w-100 rounded-circle border border-info" alt="">
 
                 </div>
                 <div class="user-menu">
-                    <h4>Admin</h4>
-                    <a href="change_pass.php"><i class="fas fa-lock"></i> Change password</a>
-                    <a href="<?php echo DOMAIN . '/logout.php' ?>"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    <h4>Employee</h4>
+                    <a href="change_pass.php"  class="kh-text text-info"><i class="fas fa-lock"></i> ផ្លាស់ប្តូរពាក្យសម្ងាត់</a>
+                    <a href="<?php echo DOMAIN . '/logout.php' ?>" class="kh-text text-info"><i class="fa-solid fa-arrow-right-from-bracket"></i> ចាកចេញ</a>
                 </div>
             </div>
         </header>
