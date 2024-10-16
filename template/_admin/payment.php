@@ -32,48 +32,48 @@
         <div class="modal-content">
             <form class="needs-validation" novalidate>
                 <div class="modal-header">
-                    <div class="modal-title" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
+                    <div class="modal-title kh-text" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
                     <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">ឈ្នោះ</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="" class="kh-text">ឈ្នោះ</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name" class="kh-text text-info"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">បន្ទប់</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="" class="kh-text">បន្ទប់</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name" class="kh-text text-info"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">យានយន្ត</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name"></span>, <span id="status"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="" class="kh-text">យានយន្ត</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name" class="kh-text text-info"></span>, <span id="status"></span></label></div>
                     </div>
                     <hr>
                     <div class="form-group">
-                        <label for="uname">បង់ប្រាក់ </label><input type="hidden" id="stu_id" name="stu_id">
+                        <label for="uname" class="kh-text"> បង់ប្រាក់ </label><input type="hidden" id="stu_id" name="stu_id">
                         <input type="number" class="form-control" id="payment" value="0" placeholder="Enter money to pay" name="payment" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group">
-                        <label for="uname">ជំពាក់ </label><input type="hidden" id="stu_id">
+                        <label for="uname" class="kh-text">ជំពាក់ </label><input type="hidden" id="stu_id">
                         <input type="number" class="form-control" id="payment_remain" value="0" placeholder="Enter money to pay" name="payment_remain" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group form-check">
-                        <label class="form-check-label">
+                        <label class="form-check-label kh-text">
                             <input class="form-check-input" type="checkbox" name="feature"> ខ្ញុំយល់ព្រម
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Check this checkbox to continue.</div>
                         </label>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer kh-text">
                     <img src="images/abc.gif" id="overlay" class="overlay" alt="Image">
-                    <button type="submit" class="btn btn-primary">បង់ប្រាក់</button>
+                    <button type="submit" class="btn btn-info">បង់ប្រាក់</button>
                 </div>
         </div>
         </form>

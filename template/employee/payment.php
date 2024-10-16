@@ -32,7 +32,7 @@
         <div class="modal-content">
             <form class="needs-validation" novalidate>
                 <div class="modal-header">
-                    <div class="modal-title" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
+                    <div class="modal-title kh-text" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
                     <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
@@ -40,15 +40,15 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-sm-3 col-lg-3 col-md-3 "><label class="kh-text" for="">ឈ្នោះ</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name"></span></label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name" class="kh-text text-info"></span></label></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-3 col-lg-3 col-md-3 "><label class="kh-text" for="">បន្ទប់</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name"></span></label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name" class="kh-text text-info"></span></label></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-3 col-lg-3 col-md-3 "><label class="kh-text" for="">យានយន្ត</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name"></span>, <span id="status"></span></label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name" class="kh-text text-info"></span>, <span id="status"></span></label></div>
                     </div>
                     <hr>
                     <div class="form-group">

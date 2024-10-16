@@ -39,14 +39,16 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         <!-- <img class="img-fluid rounded mb-4 w-100" loading="lazy" src="https://scontent.fpnh20-1.fna.fbcdn.net/v/t39.30808-6/347226606_746520380557356_1675544049191350779_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8aNm1d939cYQ7kNvgFZdwlj&_nc_ht=scontent.fpnh20-1.fna&oh=00_AYCXp-PNxt9PrQDn0tGm_GVMHGbYCsFJ2E9lxXxFsuZNgQ&oe=66D61057" width="245" height="80" alt="BootstrapBrain Logo"> -->
                         <div>
                             <div class="user-img d-flex justify-content-center align-items-center">
-                               
-                                <img src="public/images/login.png"  class="w-50 rounded rounded-circle" alt="Login-logo">
+
+                                <img src="public/images/login.png"  class="w-50 h-50 rounded rounded-circle" alt="Login-logo">
+                                <!-- <img src="template\_admin\images\logo3.png" class="w-50 rounded rounded-circle" alt="Login-logo"> -->
+
 
                             </div>
                         </div>
                         <h4 class=" my-4 kh-text text-center fw-bold text-primary">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋាននៃសាកលវិទ្យាល័យ <br>ហេងសំរិន ត្បូងឃ្មុំ </h4>
                         <hr class="border border-primary border-1 opacity-50">
-                        <p class="text-dark kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសាកលវិទ្យាល័យន័រតុន ឆ្នាំសិក្សា ២០២៤</p>
+                        <p class="text-dark kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសាកលវិទ្យាល័យន័រតុន <br> ឆ្នាំសិក្សា ២០២៤</p>
 
                         <div class="text-center d-flex align-items-center gap-2 ">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
