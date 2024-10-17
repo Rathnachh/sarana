@@ -63,7 +63,7 @@
 
         $register_date = date('d-m-Y');
 
-        $password = password_hash('UHSTIT03',PASSWORD_DEFAULT);
+        $password = password_hash('NU@2024',PASSWORD_DEFAULT);
 
         $image_name = "";
 
@@ -105,7 +105,7 @@
             $db = new operation;
             $db->checked_room($room_id);
 
-            $data = array('email' => $email, 'password' => 'UHSTIT03');
+            $data = array('email' => $email, 'password' => 'NU@2024');
             echo json_encode($data);
         }
         
@@ -178,7 +178,7 @@
 
         $register_date = date('d-m-Y');
 
-        $password = password_hash('UHSTIT03',PASSWORD_DEFAULT);
+        $password = password_hash('NU@2024',PASSWORD_DEFAULT);
 
         $image_name = "";
 
@@ -220,7 +220,7 @@
             $db = new operation;
             $db->checked_room($room_id);
 
-            $data = array('email' => $email, 'password' => 'UHSTIT03');
+            $data = array('email' => $email, 'password' => 'NU@2024');
             echo json_encode($data);
         }
         
