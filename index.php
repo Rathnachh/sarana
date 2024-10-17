@@ -46,7 +46,7 @@ if (isset($_SESSION['emp_role']) && isset($_SESSION['emp_id'])) {
                         </div>
                         <h4 class=" my-4 kh-text text-center fw-bold text-primary">ប្រព័ន្ធគ្រប់គ្រងអន្តេវាសិកដ្ឋាននៃសាកលវិទ្យាល័យ <br>ហេងសំរិន ត្បូងឃ្មុំ </h4>
                         <hr class="border border-primary border-1 opacity-50">
-                        <p class="text-dark kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសាកលវិទ្យាល័យន័រតុន ឆ្នាំសិក្សា ២០២៤</p>
+                        <p class="text-dark kh-text text-center">អភិវឌ្ឍន៍ដោយក្រុមនិស្សិតនៃសាកលវិទ្យាល័យន័រតុន <br> ឆ្នាំសិក្សា ២០២៤</p>
 
                         <div class="text-center d-flex align-items-center gap-2 ">
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
