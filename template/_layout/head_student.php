@@ -74,6 +74,9 @@ if (!isset($_SESSION['user_role']) && $_SESSION['student_login'] != true) {
                         <a href="home.php" class="dashboardMainNav"><i class="fa-solid fa-house"></i> ទំព័រដើម</a>
                     </li>
                     <li>
+                        <a href="request.php" class="infoTeacherMainNav"><i class="fa-solid fa-comment-dollar"></i> ស្នើសុំស្នាក់នៅ</a>
+                    </li>
+                    <li>
                         <a href="info_payment.php" class="infoTeacherMainNav"><i class="fa-solid fa-comment-dollar"></i> ព័ត៌មានបង់ប្រាក់</a>
                     </li>
                     <li>

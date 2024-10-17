@@ -10,8 +10,8 @@
                     <select name="feature" id="feature" class="form-control">
                         <option value="">~ select ~</option>
                         <option value="">របាយការបង់ប្រាក់</option>
-                        <option value="1">របាយការនិស្សិតបានបង់ប្រាក់ហើយ</option>
-                        <option value="0">របាយការនិស្សិតមិនទាន់បង់ប្រាក់</option>
+                        <!-- <option value="1">របាយការនិស្សិតបានបង់ប្រាក់ហើយ</option>
+                        <option value="0">របាយការនិស្សិតមិនទាន់បង់ប្រាក់</option> -->
                     </select>
                 </div>
                 <div class="col-lg-3">
