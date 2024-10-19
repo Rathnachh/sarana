@@ -387,6 +387,13 @@
 
         datatable = $('#example').DataTable({
             data: listRoom,
+            buttons: [
+                'print', 'excel',
+                
+            ],
+            dom: "<'row'<'col-md-2'l><'col-md-3'B><'col-md-7'f>>" +
+                "<'row'<'col-md-12'tr>>" +
+                "<'row'<'col-md-5'i><'col-md-7'p>>",
             columns: [{
                     className: 'kh-text',
                     data: 'n',

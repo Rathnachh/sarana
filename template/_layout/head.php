@@ -53,7 +53,8 @@ if (!isset($_SESSION['admin_name'])) {
 
         .buttons-print {
             color: #fff !important;
-            background-color: blue !important;
+            background-color: #17a2b8 !important;
+            border: none;
         }
 
         .buttons-excel {

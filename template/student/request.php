@@ -224,13 +224,13 @@
                             <label for="profile_image" class="form-label kh-text">រូមភាព ៤x៦ មួយសន្លឹក</label><span style="color: red;">*</span></label>
                             <input type="file" class="form-control" id="profile_image" name="profile_image" required>
                             <br>
-                            <img src="https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png" id="preview2" class="w-50 img-fluid border border-info" style="object-fit: cover;" alt="">
+                            <img src="https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png" id="preview" class="w-50 img-fluid border border-info" style="object-fit: cover;" alt="">
 
                         </div>
 
                         <div class="col-md-4">
-                            <!-- <img src="public/images/pic_4x6.webp" id="preview2" class="img-fluid" style="object-fit: cover;" alt=""> -->
-                            <!-- <img src="https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png" id="preview2" class="img-fluid border border-info" style="object-fit: cover;" alt=""> -->
+                            <!-- <img src="public/images/pic_4x6.webp" id="preview" class="img-fluid" style="object-fit: cover;" alt=""> -->
+                            <!-- <img src="https://endlessicons.com/wp-content/uploads/2012/11/image-holder-icon.png" id="preview" class="img-fluid border border-info" style="object-fit: cover;" alt=""> -->
 
                         </div>
                     </div>
@@ -453,7 +453,7 @@
                     </div>
                     <div class="input-field">
                         <div style="min-width:250;height:200px;overflow:hidden">
-                            <img src="public/images/pic_4x6.webp" id="preview2" style="width:100%;height:100%;object-fit: cover;" alt="">
+                            <img src="public/images/pic_4x6.webp" id="preview" style="width:100%;height:100%;object-fit: cover;" alt="">
                         </div>
                     </div>
                 </div>
@@ -516,7 +516,7 @@
         //select images
 
         $('#profile_image').change(function() {
-            imageReader(this, '#preview2');
+            imageReader(this, '#preview');
         });
 
         //get_all_list('#_faculty',2,'name','id',URL);
