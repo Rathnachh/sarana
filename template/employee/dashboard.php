@@ -60,7 +60,7 @@
                     <h3><?php echo $row_female_student['female_student'] ?> <span  class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-3 bg-info">
-                    <span class="kh-text">ចំនួនគ្រូដែស្នាក់នៅសរុប</span>
+                    <span class="kh-text">ចំនួនលោកគ្រូអ្នកគ្រូដែលស្នាក់នៅសរុប</span>
                     <h3><?php echo $row_all_teacher['all_teacher'] ?> <span  class="kh-text">នាក់</span></h3>
                 </div>
                 <div class="box color-4 bg-primary">
@@ -114,10 +114,10 @@
                                             $gender = $row['gender']==1 ? 'ស្រី':'ប្រុស';
                                             ?>
                                             <tr>
-                                                <td><?php echo '0'.$n++ ?></td>
-                                                <td><?php echo $row['fname'] ?></td>
-                                                <td><?php echo $gender ?></td>
-                                                <td><?php echo $row['province_kh_name'] ?></td>
+                                                <td class="kh-text"><?php echo '0'.$n++ ?></td>
+                                                <td class="kh-text"><?php echo $row['fname'] ?></td>
+                                                <td class="kh-text"><?php echo $gender ?></td>
+                                                <td class="kh-text"><?php echo $row['province_kh_name'] ?></td>
                                                 <td class="text-right">
                                                     <a href="acept.php?STU_ID=<?php echo $row['id']?>" class="btn btn-sm"><i class="fa-solid fa-eye text-info"></i></a>
                                                 </td>

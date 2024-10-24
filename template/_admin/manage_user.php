@@ -42,16 +42,16 @@ $data = $conn->query($sql);
         <div class="modal-content">
             <form class="needs-validation" novalidate>
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">ការកំណត់សិទ្ធលើគណនីរបស់អ្នកប្រើប្រាស់</h5>
+                    <h5 class="modal-title kh-text" id="exampleModalLongTitle">ការកំណត់សិទ្ធលើគណនីរបស់អ្នកប្រើប្រាស់</h5>
                     <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="uname">សិទ្ធអ្នកប្រើប្រាស់:</label><input type="hidden" id="id" name="id">
-                        <select name="user_role" id="user_role" class="form-control" required>
-                            <option value="" disabled selected>--ជ្រើសរើស--</option>
+                        <label for="uname"  class="kh-text">សិទ្ធអ្នកប្រើប្រាស់:</label><input type="hidden" id="id" name="id">
+                        <select name="user_role" id="user_role" class="form-control kh-text" required>
+                            <option  value="" disabled selected>--ជ្រើសរើស--</option>
                             <?php
                             while ($row = $data->fetch_assoc()) {
                             ?>

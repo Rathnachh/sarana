@@ -55,7 +55,8 @@ if (!$_SESSION['emp_role'] == '2') {
 
         .buttons-print {
             color: #fff !important;
-            background-color: blue !important;
+            background-color: #17A2B8 !important;
+            border: none;
         }
 
         .buttons-excel {

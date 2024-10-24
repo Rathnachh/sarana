@@ -41,7 +41,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
                             <label class="kh-text" for="gender">ភេទ</label>
-                            <select name="gender" class="form-control" id="gender" required>
+                            <select name="gender" class="form-control  kh-text" id="gender" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                                 <option value="1">ស្រី</option>
                                 <option value="0">ប្រុស</option>
@@ -53,7 +53,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
                             <label class="kh-text" for="ethnicity">ជនជាតិ</label>
-                            <select name="ethnicity" class="form-control" id="ethnicity" required>
+                            <select name="ethnicity" class="form-control  kh-text" id="ethnicity" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសជនជាតិ--</option>
                             </select>
                             <div class="valid-feedback">Valid.</div>
@@ -63,7 +63,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
                             <label class="kh-text" for="nation">សញ្ជាតិ</label>
-                            <select name="nation" class="form-control" id="nation" required>
+                            <select name="nation" class="form-control  kh-text" id="nation" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសសញ្ជាតិ--</option>
                             </select>
                             <div class="valid-feedback">Valid.</div>
@@ -95,7 +95,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label class="kh-text" for="province">ខេត្ត ឬ ក្រុង</label>
-                                <select name="province" class="form-control" id="province" required>
+                                <select name="province" class="form-control  kh-text" id="province" required>
                                     <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសខេត្ត--</option>
                                 </select>
                                 <div class="valid-feedback">Valid.</div>
@@ -105,7 +105,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label class="kh-text" for="district">ស្រុក ឬ​ ខណ្ឌ</label>
-                                <select name="district" class="form-control" id="district" required>
+                                <select name="district" class="form-control  kh-text" id="district" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសខេត្តជាមុនសិន--</option>
                                 </select>
                                 <div class="valid-feedback">Valid.</div>
@@ -115,7 +115,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label class="kh-text" for="community">ឃុំ ឬ សង្កាត់</label>
-                                <select name="community" class="form-control" id="community" required>
+                                <select name="community" class="form-control  kh-text" id="community" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសស្រុកជាមុនសិន--</option>
                                 </select>
                                 <div class="valid-feedback">Valid.</div>
@@ -125,7 +125,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label class="kh-text" for="village">ភូមិ</label>
-                                <select name="village" class="form-control" id="village" required>
+                                <select name="village" class="form-control  kh-text" id="village" required>
                                     <option value="" selected disabled>--សូមជ្រើសរើសឃុំជាមុនសិន--</option>
                                 </select>
                                 <div class="valid-feedback">Valid.</div>
@@ -143,7 +143,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="current_province">ខេត្ត ឬ ក្រុង</label>
-                        <select name="current_province" class="form-control" id="current_province" required>
+                        <select name="current_province" class="form-control  kh-text" id="current_province" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -153,7 +153,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="current_destrict">ស្រុក ឬ​ ខណ្ឌ</label>
-                        <select name="current_destrict" class="form-control" id="current_destrict" required>
+                        <select name="current_destrict" class="form-control  kh-text" id="current_destrict" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -163,7 +163,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="current_community">ឃុំ ឬ សង្កាត់</label>
-                        <select name="current_community" class="form-control" id="current_community" required>
+                        <select name="current_community" class="form-control  kh-text" id="current_community" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -173,7 +173,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="current_village">ភូមិ</label>
-                        <select name="current_village" class="form-control" id="current_village" required>
+                        <select name="current_village" class="form-control  kh-text" id="current_village" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -189,7 +189,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="_faculty">មហាវិទ្យាល័យ ឬវិទ្យាស្ថាន</label>
-                        <select name="_faculty" class="form-control" id="_faculty" required>
+                        <select name="_faculty" class="form-control  kh-text" id="_faculty" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -199,7 +199,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="major">ជំនាញ</label>
-                        <select name="major" class="form-control" id="major" required>
+                        <select name="major" class="form-control  kh-text" id="major" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ ឬវិស្ថានជាមុនសិន--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -210,8 +210,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="_academic">ឆ្នាំសិក្សា</label>
-                        <select name="_academic" class="form-control" id="_academic" required>
-                            <option value="" selected disabled>--សូមធ្វើការជ្រើសឆ្នាំសិក្សា--</option>
+                        <select name="_academic" class="form-control kh-text" id="_academic" required>
+                            <option value="" selected disabled >--សូមធ្វើការជ្រើសឆ្នាំសិក្សា--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
@@ -220,7 +220,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="degree">កម្រិតសិក្សា</label>
-                        <select name="degree" class="form-control" id="degree" required>
+                        <select name="degree" class="form-control kh-text" id="degree" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -230,7 +230,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="building_id">អគារ</label>
-                        <select name="building_id" class="form-control" id="building_id" required>
+                        <select name="building_id" class="form-control  kh-text" id="building_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសអគារ--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -240,7 +240,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="floor_id">ជាន់ទី</label>
-                        <select name="floor_id" class="form-control" id="floor_id" required>
+                        <select name="floor_id" class="form-control  kh-text" id="floor_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសអគារជាមុនសិន--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -250,7 +250,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="room_id">បន្ទប់លេខ</label>
-                        <select name="room_id" class="form-control" id="room_id" required>
+                        <select name="room_id" class="form-control  kh-text" id="room_id" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសជាន់នៃអគារជាមុនសិន--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -284,7 +284,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="student_type">ប្រភេទ</label>
-                        <select name="student_type" class="form-control" id="student_type" required>
+                        <select name="student_type" class="form-control  kh-text" id="student_type" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>
@@ -294,7 +294,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
                         <label class="kh-text" for="student_status">status</label>
-                        <select name="student_status" class="form-control" id="student_status" required>
+                        <select name="student_status" class="form-control  kh-text" id="student_status" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         </select>
                         <div class="valid-feedback">Valid.</div>

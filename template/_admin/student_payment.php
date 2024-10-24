@@ -2,7 +2,7 @@
 <div class="content shadow p-3 bg-white">
     <div class="title title d-flex align-items-center justify-content-between">
         <h3 class="text-info kh-text font-weight-bold">ព័ត៌មានអំពីការបង់ប្រាក់</h3>
-        <a href="payment.php"><i class="fa-brands fa-amazon-pay" style="font-size:14px"></i> បង់ប្រាក់</a>
+        <a href="payment.php" class="kh-text text-info"><i class="fa-solid fa-file-invoice-dollar fa-3x text-info" style="font-size:14px"></i> បង់ប្រាក់</a>
     </div>
     <div class="info-student my-3 ">
         <table class="table nowrap table-hover w-100 table-responsive" id="data_info_payment">
@@ -33,23 +33,23 @@
         <div class="modal-content">
             <form class="needs-validation" novalidate>
                 <div class="modal-header">
-                    <div class="modal-title" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
+                    <div class="modal-title kh-text" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
                     <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">ឈ្នោះ</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">ឈ្មោះ</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name" class="kh-text"></span></label></div>
                     </div>
                     <div class="row">
                         <div class="col-sm-3 col-lg-3 col-md-3"><label for="">លុយជំពាក់</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="payment_remain"></span> ៛</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="payment_remain" class="kh-text"></span> ៛</label></div>
                     </div>
                     <hr>
                     <div class="form-group"> <input type="hidden" id='store'>
-                        <label for="uname">បង់ប្រាក់ </label><input type="hidden" id="pay_id" name="pay_id">
+                        <label for="uname" class="kh-text">បង់ប្រាក់ </label><input type="hidden" id="pay_id" name="pay_id">
                         <input type="hidden" id="result" name="result">
                         <input type="hidden" id="result_pay" name="result_pay">
                         <input type="number" class="form-control" id="payment" value="0" placeholder="Enter money to pay" name="payment" required>
@@ -57,8 +57,8 @@
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="feature"> ខ្ញុំយល់ព្រម
+                        <label class="form-check-label kh-text">
+                            <input class="form-check-input" type="checkbox" name="feature" > ខ្ញុំយល់ព្រម
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Check this checkbox to continue.</div>
                         </label>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="modal-footer">
                     <img src="images/abc.gif" id="overlay" class="overlay" alt="Image">
-                    <button type="submit" class="btn btn-primary">បង់ប្រាក់</button>
+                    <button type="submit" class="btn btn-info kh-text">បង់ប្រាក់</button>
                 </div>
         </div>
         </form>

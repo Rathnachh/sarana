@@ -4,7 +4,7 @@
     <div class="title d-flex justify-content-between align-items-center">
         <h3 class="text-info kh-text font-weight-bold">គ្រប់គ្រងសិស្សដែលស្នាក់នៅតាមបន្ទប់នីមួយៗ</h3>
         <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
-        <a href="#add_floor" class="btn btn-sm" data-toggle="modal" data-target="#add_room"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
+        <a href="#add_floor" class="btn btn-sm kh-text text-info" data-toggle="modal" data-target="#add_room"><i class="fa-solid fa-plus text-info"></i> បន្ថែមថ្មី </a>
     </div>
     <div class="info-student my-3 ">
         <table class="table nowrap table-hover w-100 table-responsive" id="example">

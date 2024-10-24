@@ -5,7 +5,7 @@
             <div class="title d-flex justify-content-between align-items-center">
                 <h3 class="kh-text text-info font-weight-bold">ជនជាតិ</h3>
                 <img src="images/abc.gif" id="_loadingData" class="overlay" alt="Image">
-                <a href="#add_ethinicity" class="btn btn-sm" data-toggle="modal" data-target="#add_ethinicity"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
+                <a href="#add_ethinicity" class="btn btn-sm kh-text text-info" data-toggle="modal" data-target="#add_ethinicity"><i class="fa-solid fa-plus text-info"></i> បន្ថែមថ្មី </a>
             </div>
             <div class="info-student my-3 ">
                 <table class="table nowrap table-hover w-100 table-responsive">
@@ -206,7 +206,7 @@
                         }
                         else
                         {
-                            swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ចា','warning');
+                            swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ហា','warning');
                             
                         }
                     }
@@ -285,7 +285,7 @@
                         }
                         else
                         {
-                            swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ចា','warning');
+                            swal('បរាជ័យ', 'ការតភ្ជាប់របស់លោកអ្នកមានបញ្ហា','warning');
                         }
                     }
                 });

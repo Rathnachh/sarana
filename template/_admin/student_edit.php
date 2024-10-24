@@ -54,8 +54,8 @@
 <div class="content shadow row p-3 bg-white">
 <div class="col-lg-12">
     <div class="title d-flex align-items-center">
-    <a href="manage_student.php"><i class="fa-solid fa-arrow-left mr-3" style="font-size:18px"></i></a>
-        <h3>កែប្រែព័ត៌មាននិស្សិត</h3>
+    <a href="manage_student.php"><i class="fa-solid fa-arrow-left mr-3 text-info" style="font-size:18px"></i></a>
+        <h3 class="kh-text text-info font-weight-bold">កែប្រែព័ត៌មាននិស្សិត</h3>
     </div>
     <div class="info-student my-3 ">
         <form autocomplete="off" method="post" enctype="multipart/form-data" role="form" class="register_form _needs-validation" novalidate>
@@ -78,24 +78,24 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="full_name_kh">គោត្តនាម / នាម</label><input type="hidden" id="stu_id" name="stu_id" value="<?php echo $ST_ID; ?>">
-                            <input type="text" class="form-control" placeholder="Enter full name" name="ufull_name_kh" id="ufull_name_kh" required>
+                            <label for="full_name_kh" class="kh-text">គោត្តនាម / នាម</label><input type="hidden" id="stu_id" name="stu_id" value="<?php echo $ST_ID; ?>">
+                            <input type="text" class="form-control kh-text" placeholder="Enter full name" name="ufull_name_kh" id="ufull_name_kh" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="uen_fullname">ឈ្មោះជាអក្សរឡាតាំង</label>
-                            <input type="text" class="form-control" placeholder="Enter full name" name="uen_fullname" id="uen_fullname" required>
+                            <label for="uen_fullname" class="kh-text">ឈ្មោះជាអក្សរឡាតាំង</label>
+                            <input type="text" class="form-control kh-text" placeholder="Enter full name" name="uen_fullname" id="uen_fullname" required>
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="gender">ភេទ</label>
-                            <select name="ugender" class="form-control" id="ugender" required>
+                            <label for="gender" class="kh-text">ភេទ</label>
+                            <select name="ugender" class="form-control kh-text" id="ugender" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសភេទ--</option>
                                 <option value="1">ស្រី</option>
                                 <option value="0">ប្រុស</option>
@@ -106,8 +106,8 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="ethnicity">ជនជាតិ</label> 
-                            <select name="uethnicity" class="form-control" id="uethnicity" required>
+                            <label for="ethnicity" class="kh-text">ជនជាតិ</label> 
+                            <select name="uethnicity" class="form-control kh-text" id="uethnicity" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសជនជាតិ--</option>
                                 
                                  <?php
@@ -124,8 +124,8 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="unation">សញ្ជាតិ</label> 
-                            <select name="unation" class="form-control" id="unation" required>
+                            <label for="unation" class="kh-text"> សញ្ជាតិ</label> 
+                            <select name="unation" class="form-control kh-text" id="unation" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសសញ្ជាតិ--</option>
                                 <?php
                                     foreach ($data_nationality as $value) {
@@ -141,16 +141,16 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="uID_card">លេខអត្តសញ្ញាណប័ណ្ឌ</label>
-                            <input type="text" class="form-control" placeholder="Enter full name" name="uID_card" id="uID_card">
+                            <label for="uID_card" class="kh-text">លេខអត្តសញ្ញាណប័ណ្ឌ</label>
+                            <input type="text" class="form-control kh-text" placeholder="Enter full name" name="uID_card" id="uID_card">
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <label for="udob">ថ្ងៃខែឆ្នាំកំណើត</label>
-                            <input type="date" class="form-control" placeholder="Enter full name" required name="udob" id="udob">
+                            <label for="udob" class="kh-text">ថ្ងៃខែឆ្នាំកំណើត</label>
+                            <input type="date" class="form-control kh-text" placeholder="Enter full name" required name="udob" id="udob">
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
@@ -158,13 +158,13 @@
                     </div>
 
                     <!--row 1-->
-                    <label for="" style="margin-top: 10px;">ទីកន្លែងកំណើត</label>
+                    <label for="" style="margin-top: 10px;" class="kh-text">ទីកន្លែងកំណើត</label>
                     <hr style="margin:0 0 20px 0px;">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="province">ខេត្ត ឬ ក្រុង</label>
-                                <select name="uprovince" class="form-control" id="uprovince" required>
+                                <label for="province" class="kh-text">ខេត្ត ឬ ក្រុង</label>
+                                <select name="uprovince" class="form-control kh-text" id="uprovince" required>
                                     <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                                     <?php
                                         foreach ($data_province as $value) {
@@ -180,8 +180,8 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="udistrict">ស្រុក ឬ​ ខណ្ឌ</label>
-                                <select name="udistrict" class="form-control" id="udistrict" required>
+                                <label for="udistrict" class="kh-text">ស្រុក ឬ​ ខណ្ឌ</label>
+                                <select name="udistrict" class="form-control kh-text" id="udistrict" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                                 <?php
                                     foreach ($data_dis as $value) {
@@ -197,8 +197,8 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="ucommunity">ឃុំ ឬ សង្កាត់</label>
-                                <select name="ucommunity" class="form-control" id="ucommunity" required>
+                                <label for="ucommunity" class="kh-text">ឃុំ ឬ សង្កាត់</label>
+                                <select name="ucommunity" class="form-control kh-text" id="ucommunity" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                                 <?php
                                     foreach ($data_comm as $value) {
@@ -214,8 +214,8 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="uvillage">ភូមិ</label>
-                                <select name="uvillage" class="form-control" id="uvillage" required>
+                                <label for="uvillage" class="kh-text">ភូមិ</label>
+                                <select name="uvillage" class="form-control kh-text" id="uvillage" required>
                                 <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                                 <?php
                                     foreach ($data_village as $value) {
@@ -234,13 +234,13 @@
             </div>
 
             <!--row 2-->
-            <label for="" style="margin-top: 10px;">ទីកន្លែងបច្ចុប្បន្ន</label>
+            <label for="" style="margin-top: 10px;" class="kh-text font-weight-bold ">ទីកន្លែងបច្ចុប្បន្ន</label>
             <hr style="margin:0 0 20px 0px;">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_province">ខេត្ត ឬ ក្រុង</label>
-                        <select name="current_province" class="form-control" id="current_province" required>
+                        <label for="current_province" class="kh-text">ខេត្ត ឬ ក្រុង</label>
+                        <select name="current_province" class="form-control kh-text" id="current_province" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                             <?php
                                 foreach ($data_province as $value) {
@@ -256,8 +256,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_destrict">ស្រុក ឬ​ ខណ្ឌ</label>
-                        <select name="current_destrict" class="form-control" id="current_destrict" required>
+                        <label for="current_destrict" class="kh-text">ស្រុក ឬ​ ខណ្ឌ</label>
+                        <select name="current_destrict" class="form-control kh-text" id="current_destrict" required>
                         <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         <?php
                             foreach ($data_dis as $value) {
@@ -273,8 +273,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_community">ឃុំ ឬ សង្កាត់</label>
-                        <select name="current_community" class="form-control" id="current_community" required>
+                        <label for="current_community" class="kh-text">ឃុំ ឬ សង្កាត់</label>
+                        <select name="current_community" class="form-control kh-text" id="current_community" required>
                         <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         <?php
                             foreach ($data_comm as $value) {
@@ -290,8 +290,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="current_village">ភូមិ</label>
-                        <select name="current_village" class="form-control" id="current_village" required>
+                        <label for="current_village" class="kh-text">ភូមិ</label>
+                        <select name="current_village" class="form-control kh-text" id="current_village" required>
                         <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                         <?php
                             foreach ($data_village as $value) {
@@ -308,13 +308,13 @@
             </div>
 
             <!--row 2-->
-            <label for="" style="margin-top: 10px;">ជាសិស្ស​ ឬនិស្សិត</label>
+            <label for="" style="margin-top: 10px;" class="kh-text font-weight-bold">ជាសិស្ស​ ឬនិស្សិត</label>
             <hr style="margin:0 0 20px 0px;">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="_faculty">មហាវិទ្យាល័យ ឬវិទ្យាស្ថាន</label>
-                        <select name="_faculty" class="form-control" id="_faculty" required>
+                        <label for="_faculty" class="kh-text">មហាវិទ្យាល័យ ឬវិទ្យាស្ថាន</label>
+                        <select name="_faculty" class="form-control kh-text" id="_faculty" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ--</option>
                             <?php
                                 foreach ($data_faculty as $value) {
@@ -330,8 +330,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="major">ជំនាញ</label>
-                        <select name="major" class="form-control" id="major" required>
+                        <label for="major" class="kh-text font-weight-bold">ជំនាញ</label>
+                        <select name="major" class="form-control kh-text" id="major" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើសមហាវិទ្យាល័យ ឬវិស្ថានជាមុនសិន--</option>
                             <?php
                                 foreach ($data_major as $value) {
@@ -348,8 +348,8 @@
                 
                 <div class="col-lg-3 col-md-6 col-sm-12"> 
                     <div class="form-group">
-                        <label for="_academic">ឆ្នាំសិក្សា</label>
-                        <select name="_academic" class="form-control" id="_academic" required>
+                        <label for="_academic" class="kh-text">ឆ្នាំសិក្សា</label>
+                        <select name="_academic" class="form-control kh-text" id="_academic" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសឆ្នាំសិក្សា--</option>
                             <?php
                                 foreach ($data_academic as $value) {
@@ -365,8 +365,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="degree">កម្រិតសិក្សា</label>
-                        <select name="degree" class="form-control" id="degree" required>
+                        <label for="degree" class="kh-text">កម្រិតសិក្សា</label>
+                        <select name="degree" class="form-control kh-text" id="degree" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                             <?php
                                 foreach ($data_degree as $value) {
@@ -382,8 +382,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="person_mobile">លេខទូរសព្ទទំនាក់ទំនង</label>
-                        <input type="tel" class="form-control" placeholder="Enter full name" name="person_mobile" id="person_mobile">
+                        <label for="person_mobile" class="kh-text">លេខទូរសព្ទទំនាក់ទំនង</label>
+                        <input type="tel" class="form-control kh-text" placeholder="Enter full name" name="person_mobile" id="person_mobile">
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
@@ -391,16 +391,16 @@
              
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="_phone_parent">លេខទូរសព្ទអណាព្យាបាល</label>
-                        <input type="tel" class="form-control" placeholder="Enter full name" name="_phone_parent" id="_phone_parent">
+                        <label for="_phone_parent" class="kh-text">លេខទូរសព្ទអណាព្យាបាល</label>
+                        <input type="tel" class="form-control kh-text" placeholder="Enter full name" name="_phone_parent" id="_phone_parent">
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="student_type">ប្រភេទនិស្សិត</label>
-                        <select name="student_type" class="form-control" id="student_type" required>
+                        <label for="student_type" class="kh-text">ប្រភេទនិស្សិត</label>
+                        <select name="student_type" class="form-control kh-text" id="student_type" required>
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                             <?php
                                 foreach ($data_student_type  as $value) {
@@ -416,8 +416,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="form-group">
-                        <label for="student_status">ស្ថានភាពនិស្សិត</label>
-                        <select name="student_status" class="form-control" id="student_status" required> 
+                        <label for="student_status" class="kh-text">ស្ថានភាពនិស្សិត</label>
+                        <select name="student_status" class="form-control kh-text" id="student_status" required> 
                             <option value="" selected disabled>--សូមធ្វើការជ្រើសរើស--</option>
                             <?php
                                 foreach ($data_student_status  as $value) {

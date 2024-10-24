@@ -4,7 +4,7 @@
     <div class="title d-flex justify-content-between align-items-center">
         <h3 class="text-info kh-text font-weight-bold">គ្រប់គ្រងអគារ</h3>
         <img src="images/abc.gif" id="_loadData" class="overlay" alt="Image">
-        <a href="#add_faculty" class="btn btn-sm" data-toggle="modal" data-target="#add_buildings"><i class="fa-solid fa-plus text-success"></i> បន្ថែមថ្មី </a>
+        <a href="#add_faculty" class="btn btn-sm kh-text text-info" data-toggle="modal" data-target="#add_buildings"><i class="fa-solid fa-plus text-info"></i> បន្ថែមថ្មី </a>
     </div>
     <div class="card p-3">
         <table class="table nowrap table-hover table-responsive">

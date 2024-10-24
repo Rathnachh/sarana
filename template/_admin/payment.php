@@ -2,8 +2,8 @@
 
 <div class="content shadow p-3 bg-white">
     <div class="title d-flex align-items-center">
-        <a href="student_payment.php"><i class="fa-solid fa-arrow-left mr-3" style="font-size:18px"></i></a>
-        <h3>ការបង់ប្រាក់</h3>
+        <a href="student_payment.php"><i class="fa-solid fa-arrow-left mr-3 text-info" style="font-size:18px"></i></a>
+        <h3 class="kh-text text-info font-weight-bold">ការបង់ប្រាក់</h3>
     </div>
     <div class="info-student my-3 ">
         <table class="table nowrap table-hover w-100 table-responsive table-striped" id="List_payment">
@@ -11,9 +11,9 @@
                 <tr>
                     <th class="d-none"></th>
                     <th>ល.រ</th>
-                    <th class="w-75">ឈ្មោះនិស្សិត</th>
-                    <th class="w-25 text-right">លេខបន្ទប់</th>
-                    <th class="d-none"></th>
+                    <th class="w-75 kh-text">ឈ្មោះនិស្សិត</th>
+                    <th class="w-25 text-right kh-text">លេខបន្ទប់</th>
+                    <th class="d-none kh-text"></th>
                     <th class="d-none"></th>
                 </tr>
             </thead>
@@ -32,39 +32,39 @@
         <div class="modal-content">
             <form class="needs-validation" novalidate>
                 <div class="modal-header">
-                    <div class="modal-title" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
+                    <div class="modal-title kh-text" id="exampleModalLongTitle">បង់ប្រាក់សម្រាប់ការស្នាក់នៅអន្តេវាសិកដ្ឋាន</div>
                     <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </a>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">ឈ្នោះ</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for=""  class="kh-text">ឈ្នោះ</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="name"  class="kh-text"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">បន្ទប់</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for=""  class="kh-text">បន្ទប់</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="rom_name"  class="kh-text"></span></label></div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3 col-lg-3 col-md-3"><label for="">យានយន្ត</label></div>
-                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name"></span>, <span id="status"></span></label></div>
+                        <div class="col-sm-3 col-lg-3 col-md-3"><label for=""  class="kh-text">យានយន្ត</label></div>
+                        <div class="col-sm-8 col-lg-8 col-md-8"><label for="">: <span id="ve_name"  class="kh-text"></span>, <span id="status"></span></label></div>
                     </div>
                     <hr>
                     <div class="form-group">
-                        <label for="uname">បង់ប្រាក់ </label><input type="hidden" id="stu_id" name="stu_id">
+                        <label for="uname"  class="kh-text">បង់ប្រាក់ </label><input type="hidden" id="stu_id" name="stu_id">
                         <input type="number" class="form-control" id="payment" value="0" placeholder="Enter money to pay" name="payment" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group">
-                        <label for="uname">ជំពាក់ </label><input type="hidden" id="stu_id">
+                        <label for="uname" class="kh-text">ជំពាក់ </label><input type="hidden" id="stu_id">
                         <input type="number" class="form-control" id="payment_remain" value="0" placeholder="Enter money to pay" name="payment_remain" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-group form-check">
-                        <label class="form-check-label">
+                        <label class="form-check-label kh-text">
                             <input class="form-check-input" type="checkbox" name="feature"> ខ្ញុំយល់ព្រម
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Check this checkbox to continue.</div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="modal-footer">
                     <img src="images/abc.gif" id="overlay" class="overlay" alt="Image">
-                    <button type="submit" class="btn btn-primary">បង់ប្រាក់</button>
+                    <button type="submit" class="btn btn-info kh-text">បង់ប្រាក់</button>
                 </div>
         </div>
         </form>
@@ -119,7 +119,7 @@
                                 //alert(data)
                                 if (data == 1) {
                                     $('#payment_modal').modal('hide');
-                                    swal('Warning..!', 'សម្រាប់ខែនេះបានបង់ប្រាស់ហើយ សូមអរគុណ!!!', 'warning');
+                                    swal('Warning..!', 'សម្រាប់ខែនេះបានបង់ប្រាក់ហើយ សូមអរគុណ!!!', 'warning');
                                 } else {
                                     $('#payment_modal').modal('hide');
                                     swal('Successed', 'ការបង់ប្រាក់ទទួលបានជោគជ័យ​ សូមអរគុណ!!!', 'success');
@@ -160,22 +160,19 @@
                     AutoWidth: true
                 },
                 {
-                    className: 'kh-text ',
                     data: 'name_room',
                     AutoWidth: true,
-                    className: 'text-right'
+                    className: 'text-right kh-text'
                 },
                 {
-                    className: 'kh-text ',
                     data: 'name',
                     AutoWidth: true,
-                    className: 'd-none'
+                    className: 'd-none kh-text'
                 },
                 {
-                    className: 'kh-text ',
                     data: 'status',
                     AutoWidth: true,
-                    className: 'd-none'
+                    className: 'd-none kh-text'
                 }
             ]
         });

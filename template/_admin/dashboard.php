@@ -96,7 +96,7 @@
                 <div class="col-lg-5">
                     <div class="d-flex align-items-center justify-content-between">
                         <h4 style="font-size: 15px" class="kh-text">អ្នកចុះឈ្មោះស្នាក់នៅថ្មី</h4>
-                        <input type="search" class="form-control w-50" placeholder="ស្វែងរក..." id="searchname">
+                        <input type="search" class="form-control w-50 kh-text" placeholder="ស្វែងរក..." id="searchname">
                     </div>
                     <div class="py-2 table-responsive" style="height:100%">
                         <table class="table table-scrollable table-nowrap w-100 table-striped table-hover"  >
@@ -106,7 +106,7 @@
                                     <th class="kh-text">ឈ្មោះ</th>
                                     <th class="kh-text">ភេទ</th>
                                     <th class="kh-text">មកពីខេត្ត</th>
-                                    <th class="text-right kh-text">ប៊ូតុង</th>
+                                    <th class="text-right kh-text">ពិនិត្យ</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -119,11 +119,11 @@
                                             $gender = $row['gender']==1 ? 'ស្រី':'ប្រុស';
                                             ?>
                                             <tr>
-                                                <td><?php echo '0'.$n++ ?></td>
-                                                <td><?php echo $row['fname'] ?></td>
-                                                <td><?php echo $gender ?></td>
-                                                <td><?php echo $row['province_kh_name'] ?></td>
-                                                <td class="text-right">
+                                                <td class="kh-text"><?php echo '0'.$n++ ?></td>
+                                                <td class="kh-text"><?php echo $row['fname'] ?></td>
+                                                <td class="kh-text"><?php echo $gender ?></td>
+                                                <td class="kh-text"><?php echo $row['province_kh_name'] ?></td>
+                                                <td class="kh-text" class="text-right">
                                                     <a href="acept.php?STU_ID=<?php echo $row['id']?>" class="btn btn-sm"><i class="fa-solid fa-eye text-info"></i></a>
                                                 </td>
                                             </tr>
